@@ -1,0 +1,30 @@
+.logo-quilt {
+  padding: 150px 0;
+}
+
+.logo-quilt__title {
+  padding: 0 0 50px;
+}
+
+.logo-quilt__logo {
+  display: block;
+  margin: 55px auto;
+  max-height: 35px;
+}
+
+.logo-quilt__link {
+  @include rotate(270deg);
+  display: block;
+  margin-top: 100%;
+  text-align: center;
+  @media (max-width: $screen-sm) {
+    @include rotate(0deg);
+    margin-top: 0;
+  }
+}
+
+.logo-quilt__arrow {
+  margin: 0 0 4px 25px;
+  max-width: 8px;
+  @include rotate(270deg);
+}

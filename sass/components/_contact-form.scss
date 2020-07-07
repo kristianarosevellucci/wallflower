@@ -1,0 +1,53 @@
+.contact {
+  background: $forest-green;
+  padding: 0 0 100px;
+  .nav-link {
+    color: white;
+  }
+  .btn {
+    float: right;
+  }
+}
+
+.contact h2 {
+  color: $pink;
+}
+
+.contact p {
+  color: white;
+}
+
+.contact__header {
+  padding: 60px 0;
+}
+
+.contact__label {
+  color: white;
+  font-family: 'Vollkorn', serif;
+  margin: 0 0 5px 0;
+}
+
+.contact__input {
+  font-family: 'Titillium Web', sans-serif;
+  height: 40px;
+  margin: 0 0 20px 0;
+  padding: 5px;
+  width: 100%;
+}
+
+.contact__message {
+  font-family: 'Titillium Web', sans-serif;
+  height: 220px;
+  margin: 0 0 10px 0;
+  padding: 5px;
+  resize: none;
+  width: 100%;
+  &:active {
+    outline: $pink;
+  }
+}
+
+.active-form {
+  height: 100%;
+  top: 0;
+}

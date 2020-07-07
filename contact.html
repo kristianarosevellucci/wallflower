@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="dist/application.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;600&family=Vollkorn:ital@0;1&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <title>Wallflower Studio</title>
+  </head>
+
+<body>
+
+  <div class="contact">
+    <nav class="navbar navbar-expand-lg" data-aos="fade">
+      <div class="container">
+        <a href="index.html" class="logo-link"><img src="images/logo.svg" alt="Wallflower Studio" class="logo"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMobile" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon">
+            <div id="nav-icon">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarMobile">
+          <ul class="navbar-nav mr-auto">
+            <a href="work.html" class="nav-link">Work</a>
+            <a href="our-story.html" class="nav-link">Our Story</a>
+            <a href="#" class="nav-link">Shop</a>
+            <a href="#" class="nav-link nav-link__contact">Let's Chat!</a>
+          </ul>
+          <div class="form-inline my-2 my-lg-0">
+            <img src="images/icons/close.svg" alt="contact icon" class="nav-link__close" id="toggle2">
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div class="container">
+      <div class="row contact__header">
+        <div class="offset-sm-1 col-sm-5">
+          <h1 class="d-none">Contact Us</h1>
+          <h2>We’d love to hear about your journey.</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="offset-md-1 col-md-3">
+          <p>We know how important it is to find the right creative team to bring your vision to life. If you think we're it for you, shoot us a message and we'll chat to make sure we're your perfect fit!</p>
+        </div>
+        <div class="offset-md-1 col-md-6">
+          <form class="" action="index.html" method="post">
+            <div class="row">
+              <div class="col-md-6">
+                <label for="" class="contact__label">Name:</label><br>
+                <input type="text" name="" value="" class="contact__input">
+                <label for="" class="contact__label">Email:</label><br>
+                <input type="text" name="" value="" class="contact__input">
+                <label for="" class="contact__label">Subject:</label><br>
+                <input type="text" name="" value="" class="contact__input">
+              </div>
+              <div class="col-md-6">
+                <label for="" class="contact__label">Message:</label><br>
+                <textarea name="name" class="contact__message"></textarea>
+                <a href="#" class="btn btn-secondary">Let's Chat!</a>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+    window.scrollBy({
+      top: 0, // could be negative value
+      left: 0,
+      behavior: 'smooth'
+    });
+
+      $(document).ready(function(){
+      	$('#nav-icon').click(function(){
+      		$(this).toggleClass('open');
+      	});
+      });
+
+      AOS.init();
+    </script>
+  </body>
+</html>

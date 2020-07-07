@@ -1,0 +1,94 @@
+/*----------Homepage Hero----------*/
+.home-hero__text {
+  padding: 0 50px 0 0;
+  @media (max-width: $screen-md) {
+    padding: 50px 0;
+  }
+}
+
+.home-hero {
+  .va-center {
+    @media (max-width: $screen-sm) {
+      position: relative;
+      top: auto;
+      transform: none;
+    }
+  }
+}
+
+.home-hero__title {
+  line-height: .9;
+}
+
+.studio-intro {
+  padding: 150px 0;
+  text-align: left;
+}
+
+.home-hero__text--lg {
+  font-size: 7.25rem;
+  @media (max-width: $screen-md) {
+    font-size: 3rem;
+  }
+  @media (max-width: $screen-sm) {
+    font-size: 5rem;
+  }
+}
+
+.home-hero__text--sm {
+  font-size: 3rem;
+  font-style: italic;
+  position: relative;
+  top: -20px;
+  @media (max-width: $screen-md) {
+    font-size: 3rem;
+    font-style: normal;
+    top: auto;
+  }
+  @media (max-width: $screen-sm) {
+    font-size: 5rem;
+  }
+}
+
+.home-hero__title--top {
+  margin: 0 0 -50px -25px;
+  @media (max-width: $screen-md) {
+    margin: 0;
+  }
+}
+
+.home-hero__title--bottom {
+  margin-left: 105px;
+  width: 100%;
+  @media (max-width: $screen-md) {
+    margin-left: 0;
+    margin-top: -50px;
+  }
+  @media (max-width: $screen-sm) {
+    margin-top: -20px;
+  }
+}
+
+.home-hero__lead {
+  padding: 20px 40px 20px 25px;
+  margin-left: 70px;
+  width: 100%;
+  @media (max-width: $screen-md) {
+    padding: 10px 0;
+    margin-left: 0;
+  }
+}
+
+.home-hero__btn {
+  margin-left: 95px;
+  @media (max-width: $screen-md) {
+    margin-left: 0;
+  }
+}
+
+.home-hero__img {
+  margin-left: 25px;
+  @media (max-width: $screen-sm) {
+    margin-left: 0;
+  }
+}

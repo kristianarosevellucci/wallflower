@@ -1,0 +1,75 @@
+#circle {
+  position: absolute;
+  top: 85%;
+  left: 215px;
+  @include rotate(90deg);
+  @media (max-width: $screen-md) {
+    display: none;
+  }
+}
+
+#circle text {
+  font-family: 'Titillium Web', sans-serif;
+  text-transform: uppercase;
+}
+
+#circle__arrow {
+  height: 20px;
+  position: absolute;
+  top: 82px;
+  left: 35px;
+  @include rotate(270deg);
+}
+
+#circle svg {
+  position: absolute;
+  left: -60px;
+  height: 185px;
+  width: 195px;
+  &:hover {
+    -webkit-animation-name: rotate;
+    -moz-animation-name: rotate;
+    -ms-animation-name: rotate;
+    -o-animation-name: rotate;
+    animation-name: rotate;
+
+    -webkit-animation-duration: 1s;
+    -moz-animation-duration: 1s;
+    -ms-animation-duration: 1s;
+    -o-animation-duration: 1s;
+    animation-duration: 1s;
+
+    -webkit-animation-iteration-count: 1;
+    -moz-animation-iteration-count: 1;
+    -ms-animation-iteration-count: 1;
+    -o-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+
+    -webkit-animation-timing-function: linear;
+    -moz-animation-timing-function: linear;
+    -ms-animation-timing-function: linear;
+    -o-animation-timing-function: linear;
+    animation-timing-function: linear;
+  }
+}
+
+@-webkit-keyframes rotate {
+  from { -webkit-transform: rotate(0); }
+  to { -webkit-transform: rotate(360); }
+}
+@-moz-keyframes rotate {
+  from { -moz-transform: rotate(0); }
+  to { -moz-transform: rotate(360deg); }
+}
+@-ms-keyframes rotate {
+  from { -ms-transform: rotate(0); }
+  to { -ms-transform: rotate(360deg); }
+}
+@-o-keyframes rotate {
+  from { -o-transform: rotate(0); }
+  to { -o-transform: rotate(360deg); }
+}
+@keyframes rotate {
+  from { transform: rotate(0); }
+  to { transform: rotate(360deg); }
+}

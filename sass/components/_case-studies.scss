@@ -1,0 +1,187 @@
+.final-banner {
+  display: block;
+  margin: 150px auto 100px;
+  height: 575px;
+  width: 100%;
+  max-width: 1400px;
+  background: pink;
+}
+
+.final-banner__patricias {
+  @include full-bg('../images/work/patricias/patricias-finals-1.png');
+}
+
+.case-finals__second-row {
+  padding: 100px 0;
+  @media (max-width: $screen-sm) {
+    padding: 50px 0;
+  }
+}
+
+.case-study__nav {
+  padding: 20px 0;
+}
+
+.case-study__title {
+  padding: 100px 0 0;
+  @media (max-width: $screen-sm) {
+    padding: 25px 0;
+    text-align: center;
+  }
+}
+
+.case-study-hero #circle {
+  right: 0;
+  left: auto;
+}
+
+.case-study-intro p {
+  font-family: 'Vollkorn', serif;
+  font-size: 2.25rem;
+  padding: 150px 0;
+  text-align: center;
+  @media (max-width: $screen-sm) {
+    font-size: 1.75rem;
+    padding: 25px 0 50px;
+  }
+}
+
+.case-process {
+  padding: 100px 0;
+  @media (max-width: $screen-sm) {
+    padding: 50px 0 0;
+  }
+}
+
+.case-process img {
+  padding: 150px 0 0;
+  @media (max-width: $screen-sm) {
+    padding: 50px 0;
+  }
+}
+
+.case-results {
+  @media (max-width: $screen-sm) {
+    padding: 0 0 100px;
+  }
+}
+
+.top-img {
+  @media (max-width: $screen-sm) {
+    padding: 0 0 50px;
+  }
+}
+
+.case-study__three-col {
+  padding: 0 0 100px;
+}
+
+.case-study__nav-link {
+  width: 60px;
+}
+
+.case-study__nav-link--right {
+  float: right;
+  margin-right: -15px;
+}
+
+.case-study__nav-link--left {
+  float: left;
+}
+
+.case-study__right-row {
+  margin-top: -125px;
+  @media (max-width: $screen-sm) {
+    margin-top: 0;
+  }
+}
+
+.case-study__left-row {
+  margin-top: 50px;
+}
+
+.case-img__finals {
+  padding: 0 0 50px;
+}
+
+.brand-colours {
+  padding: 150px 0;
+  @media (max-width: $screen-sm) {
+    padding: 0 0 100px;
+    text-align: center;
+  }
+}
+
+.color-block {
+  border-radius: 255px;
+  display: block;
+  height: 125px;
+  width: 125px;
+  margin: 20px auto;
+  @media (max-width: $screen-sm) {
+    display: block;
+    margin: 20px auto;
+  }
+}
+
+.color-block__mandarin-orange {
+  background: #F18B2F;
+}
+
+.color-block__fuschia {
+  background: #E465ED;
+}
+
+.color-block__electric-blue {
+  background: #06C5EF;
+}
+
+.color-block__purple {
+  background: #5F01A3;
+}
+
+.color-block__royal-purple {
+  background: #210144;
+}
+
+.color-block__balboa-mist {
+  background: #D4CEBF;
+}
+
+.color-block__cream {
+  background: #FDFCF6;
+  border: 1px solid #D4CEBF;
+}
+
+.color-block__midnight-blue {
+  background: #182028;
+}
+
+.color-block__cherry {
+  background: #C82401;
+}
+
+.color-block__honey {
+  background: #EC9D2F;
+}
+
+.case-img__dibs-2 {
+  padding-right: 100px;
+  @media (max-width: $screen-sm) {
+    padding-right: 0;
+  }
+}
+
+.case-img__dibs-4 {
+  padding-left: 100px;
+  @media (max-width: $screen-sm) {
+    padding-left: 0;
+  }
+}
+
+.img-banner {
+  padding: 150px 0;
+  @media (max-width: $screen-sm) {
+    display: none;
+  }
+}

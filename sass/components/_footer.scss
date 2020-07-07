@@ -1,0 +1,48 @@
+footer {
+  background: $forest-green;
+  padding: 25px 50px;
+}
+
+footer p {
+  color: white;
+}
+
+footer a {
+  color: white;
+  text-align: center;
+  &:hover {
+    color: $pink;
+  }
+}
+
+.footer__logo {
+  height: 50px;
+  float: left;
+  padding-right: 20px;
+}
+
+.footer_social-container {
+  display: block;
+  float: right;
+  margin: 0 auto;
+  width: 165px;
+  @media (max-width: $screen-sm) {
+    float: none;
+  }
+}
+
+.footer__social-icon {
+  margin: 17px 0 0 15px;
+  max-width: 20px;
+}
+
+.footer__top-btn {
+  left: 25%;
+  @media (max-width: $screen-sm) {
+    left: auto;
+  }
+}
+
+.copyright {
+  margin-left: 75px;
+}

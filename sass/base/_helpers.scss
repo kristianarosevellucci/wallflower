@@ -1,0 +1,46 @@
+.va-center {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  @media (max-width: $screen-sm) {
+    position: relative;
+    top: auto;
+    transform: none;
+  }
+}
+
+.active {
+  color: $grey;
+  background: url(../images/icons/wave.svg);
+  background-repeat: repeat;
+  background-position-x: 0%;
+  background-position-y: 0%;
+  background-size: auto auto;
+  background-repeat: repeat-x;
+  background-size: 17px 16px;
+  background-position: 5px 22px;
+  animation: move 7s linear infinite;
+  -webkit-animation: move 7s linear infinite;
+  animation-play-state: paused;
+  &:hover {
+    animation-play-state: running;
+  }
+
+  @-webkit-keyframes move {
+    from {
+      background-position: 2px 19px;
+    }
+    to {
+      background-position: 500px 19px;
+    }
+  }
+
+  @keyframe move {
+    from {
+      background-position: 2px 19px;
+    }
+    to {
+      background-position: 500px 19px;
+    }
+  }
+}
