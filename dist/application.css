@@ -171,6 +171,17 @@ a {
   .btn-secondary:hover {
     background: #bd4e1f; }
 
+::-webkit-scrollbar {
+  width: 10px; }
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #FFF4EE; }
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #F7B3A4; }
+
 .final-banner {
   display: block;
   margin: 150px auto 100px;
@@ -768,9 +779,21 @@ footer a {
 
 .portfolio__row {
   padding: 50px 0; }
+  @media (max-width: 768px) {
+    .portfolio__row {
+      padding: 0; } }
 
 .portfolio__portrait-piece--sm {
   margin: 200px 0 0 0; }
+  @media (max-width: 768px) {
+    .portfolio__portrait-piece--sm {
+      margin: 50px 0 0 0; } }
+
+.portfolio__portrait-piece--one {
+  margin: 255px 0 0 0; }
+  @media (max-width: 768px) {
+    .portfolio__portrait-piece--one {
+      margin: 0; } }
 
 .portfolio__piece-title {
   padding: 30px 0 0 0; }
@@ -790,80 +813,56 @@ footer a {
   padding: 50px 0 0;
   position: fixed;
   width: 100%; }
+  @media (max-width: 768px) {
+    .portfolio-tabs {
+      display: none; } }
 
 .portfolio-tab__title {
   padding: 0 0 15px; }
 
-button {
-  border: none;
+.portfolio-piece {
   cursor: pointer;
-  padding: 0; }
-  button:before, button:after {
-    box-sizing: inherit;
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 100%; }
+  text-transform: none; }
+  @media (max-width: 768px) {
+    .portfolio-piece {
+      display: block;
+      margin: 0 0 50px 0; } }
 
-.draw {
-  transition: color 0.5s;
-  padding: 0; }
-  .draw:before, .draw:after {
-    border: 3px solid transparent;
-    width: 0;
-    height: 0; }
-  .draw:before {
-    top: 0;
-    left: 0; }
-  .draw:after {
-    top: 0;
-    left: 0; }
-  .draw:hover {
-    color: #F7B3A4; }
-    .draw:hover:before, .draw:hover:after {
-      width: 95%;
-      height: 100%;
-      padding: 0;
-      padding: 0;
-      margin-left: 2.5%; }
-    .draw:hover:before {
-      border-top-color: #F7B3A4;
-      border-right-color: #F7B3A4;
-      transition: width 0.5s ease-out, height 0.5s ease-out 0.5s; }
-    .draw:hover:after {
-      border-bottom-color: #F7B3A4;
-      border-left-color: #F7B3A4;
-      transition: border-color 0s ease-out 0.5s, width 0.25s ease-out 0.5s, height 0.25s ease-out 0.75s; }
+.portfolio__row--two {
+  margin: -125px 0 0 0; }
+  @media (max-width: 768px) {
+    .portfolio__row--two {
+      margin: 0; } }
 
-.meet {
-  padding: 0; }
-  .meet:hover {
-    color: #F7B3A4; }
-    .meet:hover:before {
-      border-top-color: #F7B3A4;
-      border-right-color: #F7B3A4; }
-    .meet:hover:after {
-      border-bottom-color: #F7B3A4;
-      border-left-color: #F7B3A4;
-      transition: height 0.25s ease-out, width 0.25s ease-out 0.25s; }
-  .meet:after {
-    top: 0;
-    left: 0; }
+.company-title {
+  padding: 150px 0 100px; }
 
-.story__title {
-  padding: 100px 0 50px; }
+.story-flowers__top {
+  position: absolute;
+  right: -170px;
+  top: -25px; }
+  @media (max-width: 768px) {
+    .story-flowers__top {
+      right: -70px; } }
+
+.story-flowers__bottom {
+  position: absolute;
+  bottom: 0;
+  left: -175px; }
+  @media (max-width: 768px) {
+    .story-flowers__bottom {
+      left: -170px; } }
+
+.story {
+  padding: 100px 0; }
 
 .services {
-  padding: 150px 0; }
+  background: white;
+  margin: 0 50px 100px;
+  padding: 100px 0; }
 
 .services__row {
   padding: 25px 0; }
-
-.story__block-1 {
-  padding: 230px 0 0; }
-
-.story__img-1 {
-  padding: 0 0 100px; }
 
 .title-block {
   position: relative; }

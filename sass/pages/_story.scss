@@ -1,21 +1,37 @@
-.story__title {
-  padding: 100px 0 50px;
+.company-title {
+  padding: 150px 0 100px;
+}
+
+.story-flowers__top {
+  position: absolute;
+  right: -170px;
+  top: -25px;
+  @media (max-width: $screen-sm) {
+    right: -70px;
+  }
+}
+
+.story-flowers__bottom {
+  position: absolute;
+  bottom: 0;
+  left: -175px;
+  @media (max-width: $screen-sm) {
+    left: -170px;
+  }
+}
+
+.story {
+  padding: 100px 0;
 }
 
 .services {
-  padding: 150px 0;
+  background: white;
+  margin: 0 50px 100px;
+  padding: 100px 0;
 }
 
 .services__row {
   padding: 25px 0;
-}
-
-.story__block-1 {
-  padding: 230px 0 0;
-}
-
-.story__img-1 {
-  padding: 0 0 100px;
 }
 
 .title-block {
