@@ -184,7 +184,7 @@ a {
 
 .final-banner {
   display: block;
-  margin: 150px auto 100px;
+  margin: 50px auto 100px;
   height: 575px;
   width: 100%;
   max-width: 1400px;
@@ -273,7 +273,7 @@ a {
   padding: 0 0 50px; }
 
 .brand-colours {
-  padding: 150px 0; }
+  padding: 150px 0 0; }
   @media (max-width: 768px) {
     .brand-colours {
       padding: 0 0 100px;
@@ -334,7 +334,7 @@ a {
       padding-left: 0; } }
 
 .img-banner {
-  padding: 150px 0; }
+  padding: 0 0 150px; }
   @media (max-width: 768px) {
     .img-banner {
       display: none; } }
