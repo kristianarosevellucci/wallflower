@@ -173,6 +173,13 @@ a {
   .btn-secondary:hover {
     background: #bd4e1f; }
 
+.va-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%; }
+
 ::-webkit-scrollbar {
   width: 10px; }
 
