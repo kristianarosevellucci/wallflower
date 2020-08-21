@@ -6,7 +6,8 @@
 }
 
 .portfolio__portrait-piece--sm {
-  margin: 200px 0 0 0;
+  margin: 350px 0 0 0;
+  padding: 0;
   @media (max-width: $screen-sm) {
     margin: 50px 0 0 0;
   }
@@ -60,8 +61,60 @@
 }
 
 .portfolio__row--two {
-  margin: -125px 0 0 0;
+  margin: -350px 0 0 0;
   @media (max-width: $screen-sm) {
     margin: 0;
   }
+}
+
+.portfolio__row--three {
+  margin-top: -300px;
+  @media (max-width: $screen-sm) {
+    margin: 0;
+  }
+}
+
+.work__hero {
+  margin: 100px 0 -100px;
+}
+
+
+
+
+
+.hero-section {
+  width: 100%;
+  height: 70rem;
+  overflow: hidden;
+  position: relative;
+}
+
+.hero-section img {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+
+
+.zoom{
+	overflow: hidden;
+	//padding-bottom: 55%;
+}
+
+.zoom-container {
+
+}
+
+.zoom img{
+	//position: fixed;
+	//top: 0%;
+	//left: 50%;
+	//max-width: 200%;
+	//width: 100%;
+	//transform: translateX(-50%);
+	/* Thanks  @bastian_fiessinger. Use when activating blur effect:
+	will-change: -webkit-filter, filter, transform; */
 }

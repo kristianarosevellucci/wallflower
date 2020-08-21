@@ -2,26 +2,12 @@
   padding: 150px 0 100px;
 }
 
-.story-flowers__top {
-  position: absolute;
-  right: -170px;
-  top: -25px;
-  @media (max-width: $screen-sm) {
-    right: -70px;
-  }
-}
-
-.story-flowers__bottom {
-  position: absolute;
-  bottom: 0;
-  left: -175px;
-  @media (max-width: $screen-sm) {
-    left: -170px;
-  }
-}
-
 .story {
   padding: 100px 0;
+}
+
+.story__middle-row {
+  padding: 70px 0 100px;
 }
 
 .services {
@@ -34,14 +20,25 @@
   padding: 25px 0;
 }
 
+.services__img {
+  display: block;
+  margin: 0 auto;
+  max-width: 200px;
+}
+
+.services__title-img {
+  max-width: 100px;
+}
+
 .title-block {
+  margin: 0 0 75px -80px;
   position: relative;
 }
 
 .title-block__text {
   position: absolute;
-  top: 75px;
-  left: 120px;
+  top: 35px;
+  left: 80px;
 }
 
 .story-title {

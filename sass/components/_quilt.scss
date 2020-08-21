@@ -4,12 +4,18 @@
 
 .logo-quilt__title {
   padding: 0 0 50px;
+  text-align: center;
 }
 
 .logo-quilt__logo {
   display: block;
   margin: 55px auto;
   max-height: 35px;
+}
+
+.logo-quilt__logo--square {
+  max-height: 55px;
+  margin-top: 40px;
 }
 
 .logo-quilt__link {

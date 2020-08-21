@@ -1,7 +1,7 @@
 #circle {
   position: absolute;
   top: 85%;
-  left: 215px;
+  left: 150px;
   @include rotate(90deg);
   @media (max-width: $screen-md) {
     display: none;

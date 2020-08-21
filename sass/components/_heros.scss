@@ -70,8 +70,8 @@
 }
 
 .home-hero__lead {
-  padding: 20px 40px 20px 25px;
-  margin-left: 70px;
+  padding: 20px 40px 20px 0;
+  //margin-left: 70px;
   width: 100%;
   @media (max-width: $screen-md) {
     padding: 10px 0;
@@ -80,7 +80,7 @@
 }
 
 .home-hero__btn {
-  margin-left: 95px;
+  //margin-left: 95px;
   @media (max-width: $screen-md) {
     margin-left: 0;
   }

@@ -43,50 +43,58 @@
     </div>
   </nav>
 
-  <section class="company text-center">
-    <div class="container">
-      <div class="row">
-        <div class="offset-sm-2 col-sm-8">
-          <img src="images/story-flowers-2.svg" class="img-fluid story-flowers__top" alt="Strategy Image">
-          <h1 class="company-title">Wallflower is a branding and web design studio based in Toronto.</h1>
-          <img src="images/story-flowers-1.svg" class="img-fluid story-flowers__bottom" alt="Strategy Image">
-        </div>
-      </div>
-    </div>
-  </section>
-
   <section class="story">
     <div class="container">
       <div class="row">
-        <div class="offset-sm-6 col-sm-5">
-          <p>Our creative crew uses narrative driven design, interactive assets, and carefully crafted content to create brands and websites that hit you right in the feels.</p>
-          <h3 class="story-title">We believe design should be about personality.</h3>
-          <p>Connecting with your audience is about more than buzzwords and a flashy logo. Your brand needs to speak for itself across all channels, drive your strategic decision making, and feel authentic.</p>
+        <div class="col-sm-8">
+          <h1>A great brand is rooted in a great story. This is the story of us.</h1>
+        </div>
+      </div>
+      <div class="row story__middle-row">
+        <div class="col-md-7">
+          <div class="zoom">
+            <img src="images/about-img-1.png" alt="Wallflower Studio" class="img-fluid">
+          </div>
+        </div>
+        <div class="offset-md-1 col-md-4">
+          <p>Oh, hey there! I’m Kristiana, a designer from Toronto, Canada. I’m one of the makers here at Wallflower Studios.<br><br>
+            Like so many designers, I’ve always been more on the quiet side, often preferring to to listen and observe rather than being centre stage. When I was 19, I decided to try freelancing and eventually went on to work at a product company, startup, and an agency: each of which allowed me to look at design, business and teamwork from different perspectives.
+          </p>
         </div>
       </div>
       <div class="row">
-        <div class="col-sm-5">
-          <h3 class="story-title">We’re not afraid to get intimate and create something true to you.</h3>
-          <p>The ability to listen, observe, and draw connections are essential for brand building and product positioning - this is why we chose the name Wallflower.</p>
-          <p>It doesn’t matter if you are starting at the beginning or have been in business for 50 years - we’ve built and launched products, websites, and brands for businesses of all shapes, colours, and ages (from startups to large production companies and agencies).</p>
-          <p>Once our work is done, we will happily take our place behind the scenes - cheering you on as the world watches you bloom.</p>
+        <div class="col-md-6">
+          <p>There came a point, however, where I had created what should have been the “perfect” life, but within it just didn’t feel right. <br><br>
+            After collaborating with clients at various stages in their business, I  realized that working with small business owners with causes near and dear to them made my heart grow three sizes ( literally!-- just kidding). I also realized that my ability to listen, observe and draw connections are essential for brand building and product positioning.<br><br>
+            And so just like that, Wallflower Studio was born!<br><br>
+            We’re now a small creative crew that uses narrative driven design, interactivity, and carefully crafted content to create brands and website that hit you right in the feels.</p>
+        </div>
+        <div class="offset-md-1 col-md-5">
+          <div class="zoom">
+            <img src="images/about-img-2.png" alt="Wallflower Studio" class="img-fluid">
+          </div>
         </div>
       </div>
+
     </div>
   </section>
 
   <section class="services">
     <div class="container">
-      <div class="title-block">
-        <img src="images/title-decoration.svg" alt="Title Decoration">
-        <h2 class="title-block__text">Things We do</h2>
+      <div class="row">
+        <div class="offset-sm-1 col-sm-10">
+          <div class="title-block">
+            <img src="images/title-decoration.svg" alt="Title Decoration" class="services__title-img">
+            <h2 class="title-block__text">How we bring your dream to life</h2>
+          </div>
+        </div>
       </div>
       <div class="row services__row">
         <div class="offset-sm-1 col-sm-4">
           <p class="p-lg-title va-center">Strategy</p>
         </div>
         <div class="col-sm-3">
-          <img src="images/dog-tophat.png" class="img-fluid" alt="Party Hat Dog">
+          <img src="images/dog-tophat.png" class="img-fluid services__img" alt="Party Hat Dog">
         </div>
         <div class="offset-sm-1 col-sm-3 text-left">
           <p>Brand Positioning</p>
@@ -105,7 +113,7 @@
           <p>Marketing Collateral</p>
         </div>
         <div class="col-sm-3">
-          <img src="images/dog-helicopter.png" class="img-fluid" alt="Identity Dog">
+          <img src="images/dog-helicopter.png" class="img-fluid services__img" alt="Identity Dog">
         </div>
         <div class="col-sm-5 text-left">
           <p class="p-lg-title va-center">Identity</p>
@@ -113,7 +121,7 @@
       </div>
       <div class="row services__row">
         <div class="offset-sm-1 col-sm-3">
-          <img src="images/dog-party.png" class="img-fluid" alt="Experience Image">
+          <img src="images/dog-party.png" class="img-fluid services__img" alt="Experience Image">
         </div>
         <div class="col-sm-5">
           <p class="p-lg-title va-center">Experience</p>
@@ -180,6 +188,14 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
+    $(window).scroll(function() {
+
+      var scroll = $(window).scrollTop();
+    	$(".zoom img").css({
+    		transform: 'scale('+(450 + scroll/15)/450+')',
+    	});
+    });
+
       window.scrollBy({
         top: 0,
         left: 0,
