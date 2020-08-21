@@ -20,6 +20,14 @@
   }
 }
 
+.portfolio__piece--prh {
+  margin: -250px 0 0 0;
+  padding: 0;
+  @media (max-width: $screen-sm) {
+    margin: 50px 0 0 0;
+  }
+}
+
 .portfolio__piece-title {
   padding: 30px 0 0 0;
 }
@@ -95,6 +103,14 @@
   top: 0;
   left: 50%;
   transform: translate(-50%);
+}
+
+.case-info {
+  .case-process {
+    img {
+      padding: 0;
+    }
+  }
 }
 
 

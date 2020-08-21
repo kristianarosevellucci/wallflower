@@ -22,6 +22,10 @@
   padding: 20px 0;
 }
 
+.case-study__nav-title {
+  margin: 10px 0 0;
+}
+
 .case-study__title {
   padding: 100px 0 0;
   @media (max-width: $screen-sm) {
@@ -30,9 +34,14 @@
   }
 }
 
+.case-study__title--prh {
+  margin-top: -50px;
+}
+
 .case-study-hero #circle {
-  right: 0;
+  right: -70px;
   left: auto;
+  bottom: 0;
 }
 
 .case-study-intro p {

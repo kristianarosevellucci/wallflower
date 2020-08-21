@@ -9,6 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;600&family=Vollkorn:ital@0;1&display=swap" rel="stylesheet">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
     <title>Wallflower Studio</title>
@@ -73,6 +74,28 @@
               </a>
             </div>
           </div>
+          <div class="row portfolio__row">
+            <div class="col-sm-5">
+              <a href="projects/creatubbles" class="portfolio-piece">
+                <div class="zoom">
+                  <img src="images/work/creatubbles/creatubbles-preview-1.png" alt="Creatubbles" class="img-fluid portfolio__item-img">
+                </div>
+                <h3 class="portfolio__piece-title" data-aos="fade-in">Creatubbles</h3>
+                <p data-aos="fade-in">Branding, Illustration, UX/UI</p>
+              </a>
+            </div>
+            <div class="offset-sm-1 col-sm-6">
+              <div class="portfolio__piece--prh">
+                <a href="projects/lumened" class="portfolio-piece">
+                  <div class="zoom">
+                    <img src="images/work/lumened-preview-2.png" alt="LumenEd Tech" class="img-fluid portfolio__item-img">
+                  </div>
+                  <h3 class="portfolio__piece-title" data-aos="fade-in">Penguin Randomhouse</h3>
+                  <p data-aos="fade-in">Illustration, UX/UI</p>
+                </a>
+              </div>
+            </div>
+          </div>
           <div class="row portfolio__row portfolio__row--two">
             <div class="col-sm-4 portfolio__portrait-piece portfolio__portrait-piece--sm">
               <a href="projects/shopwell" class="portfolio-piece">
@@ -110,34 +133,31 @@
   </section>
 
   <footer>
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-sm-5 d-none d-sm-block">
-          <img src="images/logomark.svg" alt="Wallflower Logo" class="footer__logo">
-          <p class="va-center copyright">&#xa9; 2020 Wallflower Studio </p>
-        </div>
-        <div class="col-sm-2 text-center">
-          <a href="#" class="va-center footer__top-btn">Back to Top</a>
+    <div class="container">
+      <div class="row footer-content">
+        <div class="col-sm-7">
+          <h2 class="footer-cta">Interested in working together? <a href="contact.html" class="footer-cta__link">Give us a shout!</a></h2>
         </div>
         <div class="col-sm-5">
-          <div class="footer_social-container">
-            <a href="https://www.instagram.com/kristianavellucciart/" class="footer__social-link" target="_blank">
-              <img src="images/icons/instagram.svg" alt="Instagram" class="footer__social-icon">
-            </a>
-            <a href="https://dribbble.com/kristianavellucci" class="footer__social-link" target="_blank">
-              <img src="images/icons/dribbble.svg" alt="Dribbble" class="footer__social-icon">
-            </a>
-            <a href="https://www.pinterest.ca/kristianavellucci/boards/" class="footer__social-link" target="_blank">
-              <img src="images/icons/pinterest.svg" alt="Pinterest" class="footer__social-icon">
-            </a>
-            <a href="https://www.linkedin.com/company/wallflower-studio-co" class="footer__social-link" target="_blank">
-              <img src="images/icons/linkedin.svg" alt="LinkedIn" class="footer__social-icon">
-            </a>
+          <div class="footer-social">
+            <a href="https://www.pinterest.ca/kristianavellucci/boards/" target="new" class="footer-social-link"><span class="fa fa-pinterest"></span></a>
+            <a href="https://www.instagram.com/wallflowerstudioco/" target="new" class="footer-social-link"><span class="fa fa-instagram"></span></a>
+            <a href="https://dribbble.com/kristianavellucci" target="new" class="footer-social-link"><span class="fa fa-dribbble"></span></a>
+            <a href="http://www.behance.net/kristianavellucci" target="new" class="footer-social-link"><span class="fa fa-behance"></span></a>
           </div>
         </div>
       </div>
+      <div class="row footer-notes">
+        <div class="col-sm-8">
+          <p class="p-sm">Copyright © 2020 All rights reserved.</p>
+        </div>
+        <div class="col-sm-4">
+          <a href="#" class="footer-link">Back to Top</a>
+        </div>
+      </div>
     </div>
-  </footer>
+  </div>
+</footer>
 
 
     <!-- Optional JavaScript -->
@@ -147,13 +167,13 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
-    $(window).scroll(function() {
+    /*$(window).scroll(function() {
 
       var scroll = $(window).scrollTop();
     	$(".zoom img").css({
     		transform: 'scale('+(450 + scroll/15)/450+')',
     	});
-    });
+    });*/
 
       window.scrollBy({
         top: 0,
