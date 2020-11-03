@@ -4,7 +4,7 @@
   transform: translateY(-50%); }
   @media (max-width: 768px) {
     .va-center {
-      position: relative;
+      position: relative !important;
       top: auto;
       transform: none; } }
 
@@ -64,7 +64,8 @@ html {
 
 body {
   background: #FFF4EE !important;
-  overflow-x: hidden; }
+  overflow-x: hidden;
+  width: 101%; }
 
 h1, h2, h3, h4 {
   color: #423542;
@@ -362,7 +363,6 @@ a {
   -o-background-size: cover;
   background-size: cover;
   padding: 50px 0;
-  margin: 100px 0 0;
   text-align: center; }
 
 .cta-banner__img {
@@ -429,6 +429,8 @@ footer {
     font-weight: 500; }
   footer h2, footer p {
     color: #FFF4EE; }
+  footer p {
+    margin-left: -10px; }
   footer a {
     color: #FFF4EE;
     display: block;
@@ -486,7 +488,8 @@ footer {
   padding: 0 50px 0 0; }
   @media (max-width: 992px) {
     .home-hero__text {
-      padding: 50px 0; } }
+      padding: 50px 0;
+      left: 0; } }
 
 @media (max-width: 768px) {
   .home-hero .va-center {
@@ -926,6 +929,9 @@ footer {
 
 .story__middle-row {
   padding: 70px 0 100px; }
+  @media (max-width: 768px) {
+    .story__middle-row {
+      padding: 70px 0 0; } }
 
 .services {
   background: white;
@@ -939,6 +945,11 @@ footer {
   display: block;
   margin: 0 auto;
   max-width: 200px; }
+  @media (max-width: 768px) {
+    .services__img {
+      display: block;
+      margin: 50px 0;
+      max-width: 100px; } }
 
 .services__title-img {
   max-width: 100px; }

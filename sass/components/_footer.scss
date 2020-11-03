@@ -13,6 +13,9 @@ footer {
   h2, p {
     color: $beige;
   }
+  p {
+    margin-left: -10px;
+  }
   a {
     color: $beige;
     display: block;

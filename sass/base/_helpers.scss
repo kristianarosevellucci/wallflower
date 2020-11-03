@@ -3,7 +3,7 @@
   top: 50%;
   transform: translateY(-50%);
   @media (max-width: $screen-sm) {
-    position: relative;
+    position: relative !important;
     top: auto;
     transform: none;
   }
