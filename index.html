@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link href="dist/application.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;600&family=Vollkorn:ital@0;1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.typekit.net/iwc6lpi.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -17,29 +18,19 @@
   </head>
 
 <body>
-
-  <nav class="navbar navbar-expand-lg" data-aos="fade">
+  <nav>
     <div class="container">
-      <a href="index" class="logo-link"><img src="images/logo.svg" alt="Wallflower Studio" class="logo"></a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMobile" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon">
-          <div id="nav-icon">
-            <span></span>
-            <span></span>
-            <span></span>
+      <div class="row">
+        <div class="col-md-4">
+          <a href="index" class="logo-link"><img src="images/logo.svg" alt="Wallflower Studio" class="logo"></a>
+        </div>
+        <div class="col-md-8">
+          <div class="nav-link__container">
+            <a href="work" class="nav-link">Work</a>
+            <a href="our-story" class="nav-link">Our Story</a>
+            <a href="https://society6.com/kvellucci" class="nav-link" target="_blank">Shop</a>
+            <a href="contact" class="nav-link">Let's Chat!</a>
           </div>
-        </span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarMobile">
-        <ul class="navbar-nav mr-auto">
-          <a href="work" class="nav-link">Work</a>
-          <a href="our-story" class="nav-link">Our Story</a>
-          <a href="https://society6.com/kvellucci" class="nav-link" target="_blank">Shop</a>
-          <a href="contact" class="nav-link nav-link__contact">Let's Chat!</a>
-        </ul>
-        <div class="form-inline my-2 my-lg-0">
-          <a href="contact" class="nav-link" id="toggle">Let's Chat!</a>
-          <img src="images/icons/paper-plane.svg" alt="contact icon" class="nav-link__icon">
         </div>
       </div>
     </div>
@@ -50,20 +41,9 @@
       <div class="row">
         <div class="col-md-5 order-sm-1" data-aos="fade-right">
           <div class="va-center home-hero__text">
-            <!--<h1 class="home-hero__title">
-              <div class="home-hero__title--top">
-                <span class="home-hero__text--lg">You're</span>
-                <span class="home-hero__text--sm">more</span>
-              </div>
-              <br>
-              <div class="home-hero__title--bottom">
-                <span class="home-hero__text--sm">than a</span>
-                <span class="home-hero__text--lg">Logo</span>
-              </div>
-            </h1>-->
-            <h1>You're more than a logo.</h1>
-            <p class="home-hero__lead lead">Your business has a unique story and personality. We’ll work with you to create a brand identity and website that feels like you.</p>
-            <a href="#" class="btn btn-primary home-hero__btn">Let's Get Started</a>
+            <h1>You're one of a kind.</h1>
+            <p>And your brand and website should prove it. <br> We'll help you make it happen.</p>
+            <img src="images/icons/fancy-arrow.svg" alt="Fancy Arrow" class="home-hero__arrow">
           </div>
         </div>
         <div class="col-md-7 order-sm-12" data-aos="fade-up" data-aos-delay="300">
@@ -73,66 +53,66 @@
     </div>
   </section>
 
-  <div id="circle">
-    <img src="images/icons/arrow.svg" alt="Down Arrow" id="circle__arrow">
-    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="300px" height="300px" viewBox="0 0 300 300" enable-background="new 0 0 300 300" xml:space="preserve">
-      <defs>
-        <path id="circlePath" d=" M 150, 150 m -60, 0 a 60,60 0 0,1 120,0 a 60,60 0 0,1 -120,0 "/>
-      </defs>
-      <circle cx="150" cy="100" r="75" fill="none"/>
-      <g>
-        <use xlink:href="#circlePath" fill="none"/>
-        <text fill="#000">
-          <textPath xlink:href="#circlePath">Keep Scrolling!</textPath>
-        </text>
-      </g>
-    </svg>
-  </div>
-
   <section class="studio-intro" data-aos="fade-right">
     <div class="container">
       <div class="row">
         <div class="offset-sm-2 col-sm-8">
           <p class="p-lg">
-            Your marketing campaigns, print collateral, packaging, and web presence is about more than just images and colours. It is about positioning your story.
+            We build hand-crafted brands that help purpose driven companies level up using branding, illustration and content.
           </p>
         </div>
       </div>
     </div>
   </section>
 
-  <section class="process">
+  <section class="work-preview">
     <div class="container">
       <div class="row">
-        <div class="col-sm-7" data-aos="fade-right">
-          <h2>When we do projects, we take <br> you through our process: </h2>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-sm-4 process__step" data-aos="fade-up">
-          <div class="process__img-container">
-            <img src="images/bed.png" alt="Bed" class="process__img">
+        <div class="col-md-12">
+          <div class="row portfolio__row">
+            <div class="col-sm-5">
+              <a href="projects/patricias" class="portfolio-piece work-preview__one">
+                <div class="image-wrapper clip-hidden">
+                  <img src="images/work/patricias-preview-2.png" alt="Patricia's Toronto" class="img-fluid portfolio__item-img img-zoom">
+                </div>
+                <h3 class="portfolio__piece-title" data-aos="fade-in">Patricia's Toronto</h3>
+                <p data-aos="fade-in">Illustration, Print</p>
+              </a>
+            </div>
+            <div class="offset-sm-1 col-sm-6">
+              <a href="projects/lumened" class="portfolio-piece">
+                <div class="image-wrapper clip-hidden">
+                  <img src="images/work/lumened-preview-2.png" alt="LumenEd Tech" class="img-fluid portfolio__item-img img-zoom">
+                </div>
+                <h3 class="portfolio__piece-title" data-aos="fade-in">LumenEd Tech</h3>
+                <p data-aos="fade-in">Illustration, Print</p>
+              </a>
+            </div>
           </div>
-          <h3 class="process__step-title">Bed</h3>
-          <p class="process__step-info">Your business needs a solid foundation to grow. Take a deep dive into who you are!</p>
-          <!--<p class="process__step-info">Activities &amp; Outputs: Brand Questionnaire, Brand Canvas, UX and UI Audits, and More.</p>-->
-        </div>
-        <div class="col-sm-4 process__step" data-aos="fade-up" data-aos-delay="200">
-          <div class="process__img-container">
-            <img src="images/bud.png" alt="Bud" class="process__img">
+          <div class="row portfolio__row">
+            <div class="col-sm-6">
+              <div class="portfolio__piece--prh">
+                <a href="projects/penguinrandomhouse" class="portfolio-piece">
+                  <div class="image-wrapper clip-hidden">
+                    <img src="images/work/prh-preview.png" alt="Penguin Random House Preview" class="img-fluid portfolio__item-img img-zoom">
+                  </div>
+                  <h3 class="portfolio__piece-title" data-aos="fade-in">Penguin Randomhouse</h3>
+                  <p data-aos="fade-in">Illustration, UX/UI</p>
+                </a>
+              </div>
+            </div>
+            <div class="offset-sm-1 col-sm-5">
+              <a href="projects/sweetcheat" class="portfolio-piece">
+                <div class="portfolio-piece__block-final">
+                  <div class="image-wrapper clip-hidden">
+                    <img src="images/work/sweet-cheat-preview.png" alt="Sweet Cheat" class="img-fluid portfolio__item-img img-zoom">
+                  </div>
+                  <h3 class="portfolio__piece-title" data-aos="fade-in">Sweet Cheat</h3>
+                  <p data-aos="fade-in">Branding, Illustration, UX/UI, Art Direction</p>
+                </div>
+              </a>
+            </div>
           </div>
-          <h3 class="process__step-title">Bud</h3>
-          <p class="process__step-info"> In this phase, your project starts to come to life.  Let’s nurture and shape your brand identity! </p>
-          <!--<p class="process__step-info">Activities &amp; Outputs: Moodboards, Design Exploration, Content Strategy Workshop (for web projects).</p>-->
-        </div>
-        <div class="col-sm-4 process__step" data-aos="fade-right" data-aos-delay="400">
-          <div class="process__img-container">
-            <img src="images/bloom.png" alt="Bloom" class="process__img">
-          </div>
-          <h3 class="process__step-title">Bloom</h3>
-          <p class="process__step-info">Prepare to take center stage! Your voice, visuals and content are now ready to leave a lasting impression with your customers.</p>
-          <!--<p class="process__step-info">Activities &amp; Outputs: Design Kit, Web Design Implementation, Style Guide, etc.</p>-->
-        </div>
       </div>
     </div>
   </section>
@@ -145,7 +125,7 @@
         </div>
       </div>
       <div class="row">
-        <div class="offset-sm-1 col-sm-10">
+        <div class="col-sm-12">
           <div class="row" data-aos="fade-in">
             <div class="col-6 col-sm-3">
               <a href="#" target="_blank">
@@ -215,22 +195,19 @@
             </div>
           </div>
         </div>
-        <!--<div class="col-sm-2" data-aos="fade-up" data-aos-delay="300">
-          <a href="work" class="logo-quilt__link">
-            See Our Work <img src="images/icons/arrow.svg" alt="Arrow" class="logo-quilt__arrow">
-          </a>
-        </div>-->
       </div>
     </div>
   </section>
 
   <section class="cta-banner">
-    <div class="container-fluid">
+    <div class="container">
       <div class="row">
-        <div class="col-sm-12">
-          <img src="images/bloom.png" alt="" class="cta-banner__img">
-          <h2 class="cta__text">Ready to bloom?</h2>
-          <a href="contact" class="btn btn-primary" id="toggle">Let's Begin</a>
+        <div class="col-sm-7">
+          <h2 class="cta__text">Ready to watch your brand bloom?</h2>
+          <a href="contact" class="btn btn-primary">Let's Begin</a>
+        </div>
+        <div class="offset-sm-1 col-sm-4">
+          <img src="images/bloom.png" alt="Wallflower CTA Image" class="img-fluid va-center">
         </div>
       </div>
     </div>
@@ -244,7 +221,7 @@
         </div>
         <div class="col-sm-5">
           <div class="footer-social">
-            <a href="https://www.pinterest.ca/kristianavellucci/boards/" target="new" class="footer-social-link"><span class="fa fa-pinterest"></span></a>
+            <a href="https://www.pinterest.ca/wallflowerstudioco/_saved/" target="new" class="footer-social-link"><span class="fa fa-pinterest"></span></a>
             <a href="https://www.instagram.com/wallflowerstudioco/" target="new" class="footer-social-link"><span class="fa fa-instagram"></span></a>
             <a href="https://dribbble.com/kristianavellucci" target="new" class="footer-social-link"><span class="fa fa-dribbble"></span></a>
             <a href="http://www.behance.net/kristianavellucci" target="new" class="footer-social-link"><span class="fa fa-behance"></span></a>
@@ -270,19 +247,38 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
-      window.scrollBy({
-        top: 0,
-        left: 0,
-        behavior: 'smooth'
-      });
+    window.scrollBy({
+      top: 0,
+      left: 0,
+      behavior: 'smooth'
+    });
 
-      $(document).ready(function(){
-        $('#nav-icon').click(function(){
-          $(this).toggleClass('open');
-        });
+    $(document).ready(function(){
+      $('#nav-icon').click(function(){
+        $(this).toggleClass('open');
       });
+    });
 
-      AOS.init();
+    AOS.init();
+
+
+    $(window).scroll(function(){
+       inViewport();
+     });
+
+     $(window).resize(function(){
+       inViewport();
+     });
+
+     function inViewport(){
+       $('.clip-hidden').each(function(){
+         var divPos = $(this).offset().top,
+          topOfWindow = $(window).scrollTop();
+         if( divPos < topOfWindow+500 ){
+           $(this).addClass('clip-reveal');
+         }
+       });
+     }
     </script>
   </body>
 </html>

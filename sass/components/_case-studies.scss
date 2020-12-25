@@ -1,3 +1,9 @@
+.case-study {
+  h2 {
+    padding: 0 0 15px;
+  }
+}
+
 .final-banner {
   display: block;
   margin: 50px auto 100px;
@@ -23,11 +29,16 @@
 }
 
 .case-study__nav-title {
-  margin: 10px 0 0;
+  margin: 5px 0 0;
+  text-transform: uppercase;
+  font-size: .9rem;
 }
 
 .case-study__title {
   padding: 100px 0 0;
+  h1 {
+    font-size: 4rem;
+  }
   @media (max-width: $screen-sm) {
     padding: 25px 0;
     text-align: center;
@@ -38,19 +49,10 @@
   margin-top: -50px;
 }
 
-.case-study-hero #circle {
-  right: -70px;
-  left: auto;
-  bottom: 0;
-}
-
 .case-study-intro p {
-  font-family: 'Vollkorn', serif;
-  font-size: 2.25rem;
-  padding: 150px 0;
+  padding: 120px 0;
   text-align: center;
   @media (max-width: $screen-sm) {
-    font-size: 1.75rem;
     padding: 25px 0 50px;
   }
 }
@@ -63,7 +65,7 @@
 }
 
 .case-process img {
-  padding: 150px 0 0;
+  padding: 30px 0 0;
   @media (max-width: $screen-sm) {
     padding: 50px 0;
   }
@@ -91,26 +93,21 @@
 
 .case-study__nav-link--right {
   float: right;
-  margin-right: -15px;
 }
 
 .case-study__nav-link--left {
   float: left;
 }
 
-.case-study__right-row {
-  margin-top: -125px;
-  @media (max-width: $screen-sm) {
-    margin-top: 0;
-  }
-}
-
-.case-study__left-row {
-  margin-top: 50px;
-}
-
 .case-img__finals {
   padding: 0 0 50px;
+}
+
+.case-study__finals {
+  padding: 0 0 120px;
+  @media (max-width: $screen-sm) {
+    padding: 0 0 60px;
+  }
 }
 
 .brand-colours {

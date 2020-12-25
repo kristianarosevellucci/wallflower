@@ -2,7 +2,7 @@
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  @media (max-width: $screen-sm) {
+  @media (max-width: $screen-md-min) {
     position: relative !important;
     top: auto;
     transform: none;

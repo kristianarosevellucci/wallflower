@@ -1,5 +1,12 @@
 .logo {
   padding: 20px 0;
+  width: 125px;
+  @media (max-width: $screen-md) {
+    display: block;
+    margin: 0 auto;
+    padding: 20px 0 0;
+    width: 160px;
+  }
 }
 
 .logo-link {
@@ -9,105 +16,28 @@
   }
 }
 
-.navbar-collapse {
+.nav-link {
+  display: inline-block;
+  margin: 0 0 0 45px;
+  padding: .5rem .25rem;
   @media (max-width: $screen-md) {
-    background: white;
-    padding: 25px 0;
+    margin: 0;
+    padding: .5rem;
   }
 }
 
-.nav-link {
-  margin: 0 15px 0 0;
-  padding: .5rem .25rem;
-  @media (max-width: $screen-md) {
+.nav-link__container {
+  float: right;
+  padding: 20px 0;
+  @media (max-width: $screen-sm) {
+    float: none;
     text-align: center;
   }
 }
 
-.nav-link__contact {
-  display: none;
-  @media (max-width: $screen-md) {
-    display: block;
-  }
-}
-
-.nav-link__icon {
-  margin-left: -10px;
-  width: 30px;
-}
-
-.nav-link__close {
-  cursor: pointer;
-  margin: -10px 0 0 0;
-  width: 18px;
-  opacity: 1;
-  transition: .5s ease;
-  &:hover {
-    opacity: .75;
-  }
-}
-
-.navbar-nav {
-  padding: 0 0 0 45px;
-}
-
-.navbar-toggler {
-  margin-top: -30px;
-}
 
 .form-inline {
   @media (max-width: $screen-md) {
     display: none;
-  }
-}
-
-#nav-icon {
-  width: 30px;
-  height: 15px;
-  position: relative;
-  @include rotate(0deg);
-  @include ease-in-out(.5s);
-  cursor: pointer;
-  span {
-    display: block;
-    position: absolute;
-    height: 3px;
-    width: 100%;
-    background: $forest-green;
-    opacity: 1;
-    left: 0;
-    @include rotate(0deg);
-    @include ease-in-out(.25s);
-    &:nth-child(1) {
-      top: 0px;
-      @include transform-origin(left, center);
-    }
-    &:nth-child(2) {
-      top: 8px;
-      width: 20px;
-      @include transform-origin(left, center);
-    }
-    &:nth-child(3) {
-      top: 18px;
-      @include transform-origin(left, center);
-    }
-  }
-  &.open {
-    span {
-      &:nth-child(1) {
-        @include rotate(45deg);
-        top: 0;
-        left: 0;
-      }
-      &:nth-child(2) {
-        width: 0%;
-        opacity: 0;
-      }
-      &:nth-child(3) {
-        @include rotate(-45deg);
-        top: 21px;
-        left: 0;
-      }
-    }
   }
 }

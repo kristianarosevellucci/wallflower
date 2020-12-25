@@ -1,35 +1,49 @@
-.portfolio__row {
-  padding: 50px 0;
+.work-preview {
+  background: $beige-accent;
+  padding: 120px;
+  @media (max-width: $screen-md) {
+    padding: 50px 0;
+  }
+}
+
+.work-preview__title {
+  padding: 0 0 100px;
   @media (max-width: $screen-sm) {
     padding: 0;
   }
 }
 
-.portfolio__portrait-piece--sm {
-  margin: 350px 0 0 0;
-  padding: 0;
+.work-preview__one {
+  padding: 100px 0 0;
   @media (max-width: $screen-sm) {
-    margin: 50px 0 0 0;
+    padding: 0;
   }
 }
 
-.portfolio__portrait-piece--one {
-  margin: 255px 0 0 0;
+.work-preview__four {
+  margin: -400px 0 0;
+  @media (max-width: $screen-md) {
+    margin: -300px 0 0;
+  }
   @media (max-width: $screen-sm) {
     margin: 0;
   }
 }
 
-.portfolio__piece--prh {
-  margin: -250px 0 0 0;
-  padding: 0;
+.portfolio__title {
+  padding: 60px 0 0;
+}
+
+.portfolio__row {
+  padding: 60px 0;
   @media (max-width: $screen-sm) {
-    margin: 50px 0 0 0;
+    padding: 0;
   }
 }
 
 .portfolio__piece-title {
   padding: 30px 0 0 0;
+  transition: .5s ease;
 }
 
 .portfolio-tab__img {
@@ -62,9 +76,19 @@
 .portfolio-piece {
   cursor: pointer;
   text-transform: none;
+  &:hover {
+    h3, p {
+      color: $brown;
+    }
+  }
+  &:focus {
+    h3 {
+      box-shadow: 5px 5px $pink;
+    }
+  }
   @media (max-width: $screen-sm) {
     display: block;
-    margin: 0 0 50px 0;
+    padding: 0 0 60px;
   }
 }
 
@@ -82,13 +106,16 @@
   }
 }
 
+.portfolio-piece__block-final {
+  margin-top: -125px;
+  @media (max-width: $screen-sm) {
+    margin-top: 0;
+  }
+}
+
 .work__hero {
   margin: 100px 0 -100px;
 }
-
-
-
-
 
 .hero-section {
   width: 100%;
@@ -111,26 +138,4 @@
       padding: 0;
     }
   }
-}
-
-
-
-.zoom{
-	overflow: hidden;
-	//padding-bottom: 55%;
-}
-
-.zoom-container {
-
-}
-
-.zoom img{
-	//position: fixed;
-	//top: 0%;
-	//left: 50%;
-	//max-width: 200%;
-	//width: 100%;
-	//transform: translateX(-50%);
-	/* Thanks  @bastian_fiessinger. Use when activating blur effect:
-	will-change: -webkit-filter, filter, transform; */
 }

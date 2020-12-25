@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link href="dist/application.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;600&family=Vollkorn:ital@0;1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.typekit.net/iwc6lpi.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -17,28 +18,19 @@
 
 <body>
 
-  <nav class="navbar navbar-expand-lg" data-aos="fade">
+  <nav>
     <div class="container">
-      <a href="index" class="logo-link"><img src="images/logo.svg" alt="Wallflower Studio" class="logo"></a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMobile" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon">
-          <div id="nav-icon">
-            <span></span>
-            <span></span>
-            <span></span>
+      <div class="row">
+        <div class="col-md-6">
+          <a href="index" class="logo-link"><img src="images/logo.svg" alt="Wallflower Studio" class="logo"></a>
+        </div>
+        <div class="col-md-6">
+          <div class="nav-link__container">
+            <a href="work" class="nav-link">Work</a>
+            <a href="our-story" class="nav-link">Our Story</a>
+            <a href="https://society6.com/kvellucci" class="nav-link" target="_blank">Shop</a>
+            <a href="contact" class="nav-link">Let's Chat!</a>
           </div>
-        </span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarMobile">
-        <ul class="navbar-nav mr-auto">
-          <a href="work" class="nav-link active">Work</a>
-          <a href="our-story" class="nav-link">Our Story</a>
-          <a href="https://society6.com/kvellucci" class="nav-link" target="_blank">Shop</a>
-          <a href="contact" class="nav-link nav-link__contact">Let's Chat!</a>
-        </ul>
-        <div class="form-inline my-2 my-lg-0">
-          <a href="contact" class="nav-link" id="toggle">Let's Chat!</a>
-          <img src="images/icons/paper-plane.svg" alt="contact icon" class="nav-link__icon">
         </div>
       </div>
     </div>
@@ -47,89 +39,109 @@
   <section class="portfolio">
 
     <div class="container">
-      <div class="row work__hero">
-        <div class="col-md-12">
-          <h1>Selected <br> Works</h1>
+      <div class="row">
+        <div class="col-md-12 text-center portfolio__title">
+          <h1>Selected Works</h1>
+          <p>Truthfully, we don't update our website as much as we should. <br> Follow along on our Instagram to see our latest work!</p>
         </div>
       </div>
-      <div class="row">
-        <div class="col-md-12">
-          <div class="row portfolio__row">
-            <div class="col-sm-5 portfolio__portrait-piece--one">
-              <a href="projects/patricias" class="portfolio-piece">
-                <div class="zoom">
-                  <img src="images/work/patricias-preview-2.png" alt="Patricia's Toronto" class="img-fluid portfolio__item-img">
+    </div>
+
+    <div class="container">
+      <div class="col-md-12">
+        <div class="row portfolio__row">
+          <div class="col-sm-5">
+            <a href="projects/sweetcheat" class="portfolio-piece">
+              <div class="image-wrapper">
+                <img src="images/work/sweet-cheat-preview.png" alt="Sweet Cheat Preview" class="img-fluid portfolio__item-img img-zoom">
+              </div>
+              <h3 class="portfolio__piece-title" data-aos="fade-in">Sweet Cheat</h3>
+              <p data-aos="fade-in">Branding, Illustration, UX/UI, Art Direction</p>
+            </a>
+          </div>
+          <div class="offset-sm-1 col-sm-6">
+            <a href="projects/lumened" class="portfolio-piece">
+              <div class="image-wrapper">
+                <img src="images/work/lumened-preview-2.png" alt="LumenEd Tech" class="img-fluid portfolio__item-img img-zoom">
+              </div>
+              <h3 class="portfolio__piece-title" data-aos="fade-in">LumenEd Tech</h3>
+              <p data-aos="fade-in">Illustration, Print</p>
+            </a>
+          </div>
+        </div>
+        <div class="row portfolio__row">
+          <div class="col-sm-6">
+            <div class="portfolio__piece--prh">
+              <a href="projects/penguinrandomhouse" class="portfolio-piece">
+                <div class="image-wrapper clip-hidden">
+                  <img src="images/work/prh-preview.png" alt="Penguin Random House Preview" class="img-fluid portfolio__item-img img-zoom">
+                </div>
+                <h3 class="portfolio__piece-title" data-aos="fade-in">Penguin Randomhouse</h3>
+                <p data-aos="fade-in">Illustration, UX/UI</p>
+              </a>
+            </div>
+          </div>
+          <div class="offset-sm-1 col-sm-5">
+            <a href="projects/patricias" class="portfolio-piece work-preview__one">
+              <div class="portfolio-piece__block-final">
+                <div class="image-wrapper clip-hidden">
+                  <img src="images/work/patricias-preview-2.png" alt="Patricia's Toronto" class="img-fluid portfolio__item-img img-zoom">
                 </div>
                 <h3 class="portfolio__piece-title" data-aos="fade-in">Patricia's Toronto</h3>
                 <p data-aos="fade-in">Illustration, Print</p>
-              </a>
-            </div>
-            <div class="offset-sm-1 col-sm-6">
-              <a href="projects/lumened" class="portfolio-piece">
-                <div class="zoom">
-                  <img src="images/work/lumened-preview-2.png" alt="LumenEd Tech" class="img-fluid portfolio__item-img">
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-12">
+        <div class="row portfolio__row">
+          <div class="col-sm-5">
+            <a href="projects/brewedtoday" class="portfolio-piece work-preview__one">
+              <div class="image-wrapper clip-hidden">
+                <img src="images/work/btd-preview.png" alt="Brewed Today" class="img-fluid portfolio__item-img img-zoom">
+              </div>
+              <h3 class="portfolio__piece-title" data-aos="fade-in">Brewed Today</h3>
+              <p data-aos="fade-in">Branding, UX/UI</p>
+            </a>
+          </div>
+          <div class="offset-sm-1 col-sm-6">
+            <a href="projects/lumened" class="portfolio-piece">
+              <div class="image-wrapper clip-hidden">
+                <img src="images/work/shopwell-preview-2.png" alt="Shopwell Studio" class="img-fluid portfolio__item-img img-zoom">
+              </div>
+              <h3 class="portfolio__piece-title" data-aos="fade-in">Shopwell</h3>
+              <p data-aos="fade-in">Illustration</p>
+            </a>
+          </div>
+        </div>
+        <div class="row portfolio__row">
+          <div class="col-sm-6">
+            <div class="portfolio__piece--prh">
+              <a href="projects/dibs" class="portfolio-piece">
+                <div class="image-wrapper clip-hidden">
+                  <img src="images/work/dibs-preview-2.png" alt="The Dibs Preview" class="img-fluid portfolio__item-img img-zoom">
                 </div>
-                <h3 class="portfolio__piece-title" data-aos="fade-in">LumenEd Tech</h3>
-                <p data-aos="fade-in">Illustration, Print</p>
+                <h3 class="portfolio__piece-title" data-aos="fade-in">The Dibs</h3>
+                <p data-aos="fade-in">Illustration, UX/UI</p>
               </a>
             </div>
           </div>
-          <div class="row portfolio__row">
-            <div class="col-sm-5">
-              <a href="projects/creatubbles" class="portfolio-piece">
-                <div class="zoom">
-                  <img src="images/work/creatubbles/creatubbles-preview-1.png" alt="Creatubbles" class="img-fluid portfolio__item-img">
+          <div class="offset-sm-1 col-sm-5">
+            <a href="projects/creatubbles" class="portfolio-piece">
+              <div class="portfolio-piece__block-final">
+                <div class="image-wrapper clip-hidden">
+                  <img src="images/work/creatubbles/creatubbles-preview-1.png" alt="Creatubbles" class="img-fluid portfolio__item-img img-zoom">
                 </div>
                 <h3 class="portfolio__piece-title" data-aos="fade-in">Creatubbles</h3>
                 <p data-aos="fade-in">Branding, Illustration, UX/UI</p>
-              </a>
-            </div>
-            <div class="offset-sm-1 col-sm-6">
-              <div class="portfolio__piece--prh">
-                <a href="projects/penguinrandomhouse" class="portfolio-piece">
-                  <div class="zoom">
-                    <img src="images/work/prh-preview.png" alt="Penguin Random House Preview" class="img-fluid portfolio__item-img">
-                  </div>
-                  <h3 class="portfolio__piece-title" data-aos="fade-in">Penguin Randomhouse</h3>
-                  <p data-aos="fade-in">Illustration, UX/UI</p>
-                </a>
               </div>
-            </div>
-          </div>
-          <div class="row portfolio__row portfolio__row--two">
-            <div class="col-sm-4 portfolio__portrait-piece portfolio__portrait-piece--sm">
-              <a href="projects/shopwell" class="portfolio-piece">
-                <div class="zoom">
-                  <img src="images/work/shopwell-preview.png" alt="Shopwell" class="img-fluid">
-                </div>
-                <h3 class="portfolio__piece-title" data-aos="fade-in">Shopwell</h3>
-                <p data-aos="fade-in">Illustration</p>
-              </a>
-            </div>
-            <div class="offset-sm-3 col-sm-5 portfolio__portrait-piece">
-              <a href="projects/brewedtoday" class="portfolio-piece">
-                <div class="zoom">
-                  <img src="images/work/btd-preview.png" alt="Brewed Today" class="img-fluid">
-                </div>
-                <h3 class="portfolio__piece-title" data-aos="fade-in">Brewed Today</h3>
-                <p data-aos="fade-in">UX/UI, Branding</p>
-              </a>
-            </div>
-          </div>
-          <div class="row portfolio__row portfolio__row--three">
-            <div class="offset-sm-6 col-sm-6 portfolio__portrait-piece">
-              <a href="projects/dibs" class="portfolio-piece">
-                <div class="zoom">
-                  <img src="images/work/dibs-preview.png" alt="The Dibs" class="img-fluid">
-                </div>
-                <h3 class="portfolio__piece-title" data-aos="fade-in">The Dibs</h3>
-                <p data-aos="fade-in">Branding, UX/UI</p>
-              </a>
-            </div>
+            </a>
           </div>
         </div>
       </div>
     </div>
+
   </section>
 
   <footer>
@@ -140,7 +152,7 @@
         </div>
         <div class="col-sm-5">
           <div class="footer-social">
-            <a href="https://www.pinterest.ca/kristianavellucci/boards/" target="new" class="footer-social-link"><span class="fa fa-pinterest"></span></a>
+            <a href="https://www.pinterest.ca/wallflowerstudioco/_saved/" target="new" class="footer-social-link"><span class="fa fa-pinterest"></span></a>
             <a href="https://www.instagram.com/wallflowerstudioco/" target="new" class="footer-social-link"><span class="fa fa-instagram"></span></a>
             <a href="https://dribbble.com/kristianavellucci" target="new" class="footer-social-link"><span class="fa fa-dribbble"></span></a>
             <a href="http://www.behance.net/kristianavellucci" target="new" class="footer-social-link"><span class="fa fa-behance"></span></a>
@@ -167,27 +179,38 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
-    /*$(window).scroll(function() {
+    window.scrollBy({
+      top: 0,
+      left: 0,
+      behavior: 'smooth'
+    });
 
-      var scroll = $(window).scrollTop();
-    	$(".zoom img").css({
-    		transform: 'scale('+(450 + scroll/15)/450+')',
-    	});
-    });*/
-
-      window.scrollBy({
-        top: 0,
-        left: 0,
-        behavior: 'smooth'
+    $(document).ready(function(){
+      $('#nav-icon').click(function(){
+        $(this).toggleClass('open');
       });
+    });
 
-      $(document).ready(function(){
-        $('#nav-icon').click(function(){
-          $(this).toggleClass('open');
-        });
-      });
+    AOS.init();
 
-      AOS.init();
+
+    $(window).scroll(function(){
+       inViewport();
+     });
+
+     $(window).resize(function(){
+       inViewport();
+     });
+
+     function inViewport(){
+       $('.clip-hidden').each(function(){
+         var divPos = $(this).offset().top,
+          topOfWindow = $(window).scrollTop();
+         if( divPos < topOfWindow+500 ){
+           $(this).addClass('clip-reveal');
+         }
+       });
+     }
     </script>
   </body>
 </html>

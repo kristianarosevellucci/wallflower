@@ -2,12 +2,17 @@
 .home-hero__text {
   padding: 0 50px 0 0;
   @media (max-width: $screen-md) {
-    padding: 50px 0;
+    padding: 60px 0;
     left: 0;
+    transform: translate(0%, -50%);
   }
 }
 
 .home-hero {
+  text-align: center;
+  @media (max-width: $screen-md) {
+    padding: 0 25px;
+  }
   .va-center {
     @media (max-width: $screen-sm) {
       position: relative;
@@ -17,13 +22,17 @@
   }
 }
 
-.home-hero__title {
-  line-height: .9;
+.home-hero__arrow {
+  max-width: 30px;
+  padding: 15px 0;
 }
 
 .studio-intro {
-  padding: 150px 0;
+  padding: 120px 0;
   text-align: left;
+  @media (max-width: $screen-md) {
+    padding: 60px 0;
+  }
 }
 
 .home-hero__text--lg {
@@ -67,16 +76,6 @@
   }
   @media (max-width: $screen-sm) {
     margin-top: -20px;
-  }
-}
-
-.home-hero__lead {
-  padding: 20px 40px 20px 0;
-  //margin-left: 70px;
-  width: 100%;
-  @media (max-width: $screen-md) {
-    padding: 10px 0;
-    margin-left: 0;
   }
 }
 

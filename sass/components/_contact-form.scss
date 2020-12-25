@@ -1,20 +1,8 @@
 .contact {
-  background: $forest-green;
   padding: 0 0 100px;
-  .nav-link {
-    color: white;
-  }
   .btn {
     float: right;
   }
-}
-
-.contact h2 {
-  color: $pink;
-}
-
-.contact p {
-  color: white;
 }
 
 .contact__header {
@@ -22,12 +10,13 @@
 }
 
 .contact__label {
-  color: white;
-  font-family: 'Vollkorn', serif;
+  font-family: freight-big-pro, serif;
+  font-weight: 600;
   margin: 0 0 5px 0;
 }
 
 .contact__input {
+  border: 1px solid $pink;
   font-family: 'Titillium Web', sans-serif;
   height: 40px;
   margin: 0 0 20px 0;
@@ -36,6 +25,7 @@
 }
 
 .contact__message {
+  border: 1px solid $pink;
   font-family: 'Titillium Web', sans-serif;
   height: 220px;
   margin: 0 0 10px 0;

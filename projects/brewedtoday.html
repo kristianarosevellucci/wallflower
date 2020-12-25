@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link href="../dist/application.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;600&family=Vollkorn:ital@0;1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.typekit.net/iwc6lpi.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -15,30 +16,21 @@
     <title>Wallflower Studio</title>
   </head>
 
-<body>
+<body class="case-study">
 
-  <nav class="navbar navbar-expand-lg" data-aos="fade">
+  <nav>
     <div class="container">
-      <a href="../index" class="logo-link"><img src="../images/logo.svg" alt="Wallflower Studio" class="logo"></a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMobile" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon">
-          <div id="nav-icon">
-            <span></span>
-            <span></span>
-            <span></span>
+      <div class="row">
+        <div class="col-md-4">
+          <a href="../index" class="logo-link"><img src="../images/logo.svg" alt="Wallflower Studio" class="logo"></a>
+        </div>
+        <div class="col-md-8">
+          <div class="nav-link__container">
+            <a href="../work" class="nav-link">Work</a>
+            <a href="../our-story" class="nav-link">Our Story</a>
+            <a href="https://society6.com/kvellucci" class="nav-link" target="_blank">Shop</a>
+            <a href="../contact" class="nav-link">Let's Chat!</a>
           </div>
-        </span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarMobile">
-        <ul class="navbar-nav mr-auto">
-          <a href="../work" class="nav-link">Work</a>
-          <a href="../our-story" class="nav-link">Our Story</a>
-          <a href="https://society6.com/kvellucci" class="nav-link" target="_blank">Shop</a>
-          <a href="../contact" class="nav-link nav-link__contact">Let's Chat!</a>
-        </ul>
-        <div class="form-inline my-2 my-lg-0">
-          <a href="../contact" class="nav-link" id="toggle">Let's Chat!</a>
-          <img src="../images/icons/paper-plane.svg" alt="contact icon" class="nav-link__icon">
         </div>
       </div>
     </div>
@@ -55,15 +47,15 @@
           <div class="row case-study__nav" data-aos="slide-left">
             <div class="col-4">
               <div class="case-study__nav-link case-study__nav-link--left">
-                <a href="creatubbles" class="nav-link">Prev</a>
+                <a href="creatubbles">Prev</a>
               </div>
             </div>
             <div class="col-4 text-center">
-              <p class="case-study__nav-title">Case Study 5/7</p>
+              <p class="case-study__nav-title">Case Study 5/8</p>
             </div>
             <div class="col-4 text-right">
               <div class="case-study__nav-link case-study__nav-link--right">
-                <a href="shopwell" class="nav-link">Next</a>
+                <a href="shopwell">Next</a>
               </div>
             </div>
           </div>
@@ -72,22 +64,6 @@
             <h1>Brewed Today</h1>
             <p class="lead">Simple, yet distinct branding for a company showcasing hand crafted, distinct beers.</p>
             <a href="https://brewed.today/" class="btn btn-primary" target="_blank">See It Live</a>
-          </div>
-
-          <div id="circle">
-            <img src="../images/icons/arrow.svg" alt="Down Arrow" id="circle__arrow">
-            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="300px" height="300px" viewBox="0 0 300 300" enable-background="new 0 0 300 300" xml:space="preserve">
-              <defs>
-                <path id="circlePath" d=" M 150, 150 m -60, 0 a 60,60 0 0,1 120,0 a 60,60 0 0,1 -120,0 "/>
-              </defs>
-              <circle cx="150" cy="100" r="75" fill="none"/>
-              <g>
-                <use xlink:href="#circlePath" fill="none"/>
-                <text fill="#000">
-                  <textPath xlink:href="#circlePath">Keep Scrolling!</textPath>
-                </text>
-              </g>
-            </svg>
           </div>
         </div>
       </div>
@@ -98,7 +74,7 @@
     <div class="container">
       <div class="row">
         <div class="offset-sm-2 col-sm-8">
-          <p data-aos="fade-right">Brewed Today hosts an online app displaying newly released beers for Ontarians to discover. They reached out to Wallflower to help develop a brand and an interface.</p>
+          <p class="p-lg" data-aos="fade-right">Brewed Today hosts an online app displaying newly released beers for Ontarians to discover. They reached out to Wallflower to help develop a brand and an interface.</p>
         </div>
       </div>
     </div>
@@ -118,7 +94,7 @@
     <div class="container">
       <div class="row">
         <div class="offset-sm-1 col-sm-3" data-aos="fade-right">
-          <h2 class="subtitle">Process</h2>
+          <h2>Process</h2>
           <p>Brewed Today is about getting beer into the hands of consumers. The team felt it was important to create a brand that was distinctive but familiar.</p>
           <p>The team didn’t want to be just another beer advertisement - they wanted to feel crafted, custom and simple.</p>
           <p>Wallflower explored a variety of patterns, illustrations, and photography styles to help bring Brewed Today’s brand and platform to life.</p>
@@ -169,7 +145,7 @@
           <img src="../images/work/btd/btd-fonts.png" alt="Brewed Today Fonts" class="img-fluid">
         </div>
         <div class="offset-sm-1 col-sm-3" data-aos="fade-left">
-          <h2 class="subtitle">Outcomes &amp; Design</h2>
+          <h2>Outcomes &amp; Design</h2>
           <p>The team landed on a colour pallet that was warm and friendly, but distinctive.</p>
           <p>Wallflower used personality packed typography, bright colours, and hand-drawn elements to help Brewed Today come to life.</p>
           <p>Wallflower then fused these elements Brewed Today’s web app.</p>
@@ -182,7 +158,7 @@
     <div class="container">
       <div class="row">
         <div class="offset-sm-2 col-sm-8">
-          <p data-aos="fade-right"><span class="subtitle">Results</span><br>Brewed Today continues to add new features allowing their users to customize the selection of beers displayed.</p>
+          <p class="p-lg" data-aos="fade-right">Brewed Today continues to add new features allowing their users to customize the selection of beers displayed.</p>
         </div>
       </div>
     </div>
@@ -194,7 +170,7 @@
     </div>
   </section>
 
-  <section>
+  <section class="case-study__finals">
     <div class="container">
       <div class="row">
         <div class="offset-sm-2 col-sm-8">
@@ -215,14 +191,15 @@
   </div>
   </section>
 
-
   <section class="cta-banner">
-    <div class="container-fluid">
+    <div class="container">
       <div class="row">
-        <div class="col-sm-12">
-          <img src="../images/bloom.png" alt="" class="cta-banner__img">
-          <h2 class="cta__text">Ready to bloom?</h2>
-          <a href="../contact" class="btn btn-primary" id="toggle">Let's Begin</a>
+        <div class="col-sm-7">
+          <h2 class="cta__text">Ready to watch your brand bloom?</h2>
+          <a href="../contact" class="btn btn-primary">Let's Begin</a>
+        </div>
+        <div class="offset-sm-1 col-sm-4">
+          <img src="../images/bloom.png" alt="Wallflower CTA Image" class="img-fluid va-center">
         </div>
       </div>
     </div>
@@ -236,7 +213,7 @@
         </div>
         <div class="col-sm-5">
           <div class="footer-social">
-            <a href="https://www.pinterest.ca/kristianavellucci/boards/" target="new" class="footer-social-link"><span class="fa fa-pinterest"></span></a>
+            <a href="https://www.pinterest.ca/wallflowerstudioco/_saved/" target="new" class="footer-social-link"><span class="fa fa-pinterest"></span></a>
             <a href="https://www.instagram.com/wallflowerstudioco/" target="new" class="footer-social-link"><span class="fa fa-instagram"></span></a>
             <a href="https://dribbble.com/kristianavellucci" target="new" class="footer-social-link"><span class="fa fa-dribbble"></span></a>
             <a href="http://www.behance.net/kristianavellucci" target="new" class="footer-social-link"><span class="fa fa-behance"></span></a>

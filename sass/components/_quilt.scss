@@ -1,21 +1,33 @@
 .logo-quilt {
-  padding: 150px 0;
+  padding: 120px 0;
+  @media (max-width: $screen-sm) {
+    padding: 60px 0;
+  }
 }
 
 .logo-quilt__title {
   padding: 0 0 50px;
   text-align: center;
+  @media (max-width: $screen-md) {
+    padding: 0 0 30px;
+  }
 }
 
 .logo-quilt__logo {
   display: block;
   margin: 55px auto;
   max-height: 35px;
+  @media (max-width: $screen-sm) {
+    max-height: 25px;
+  }
 }
 
 .logo-quilt__logo--square {
   max-height: 55px;
   margin-top: 40px;
+  @media (max-width: $screen-sm) {
+    max-height: 45px;
+  }
 }
 
 .logo-quilt__link {

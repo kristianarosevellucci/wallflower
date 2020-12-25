@@ -3,7 +3,7 @@ footer {
   background: $forest-green;
   position: relative;
   padding: 100px 50px 20px;
-  @media only screen and (max-width: $screen-sm-max) {
+  @media only screen and (max-width: $screen-sm) {
     text-align: center;
   }
   h2 {
@@ -37,7 +37,7 @@ footer {
 .footer-link {
   float: right;
   margin-left: 50px;
-  @media only screen and (max-width: $screen-sm-max) {
+  @media only screen and (max-width: $screen-sm) {
     float: none;
     text-align: center;
     margin: 25px 0;
@@ -47,7 +47,7 @@ footer {
 .footer-social {
   display: inline-block;
   float: right;
-  @media only screen and (max-width: $screen-sm-max) {
+  @media only screen and (max-width: $screen-sm) {
     float: none;
   }
 }
@@ -62,10 +62,11 @@ footer {
 }
 
 .footer-cta__link {
-  font-family: 'Vollkorn', serif;
+  font-family: freight-big-pro, serif;
+  font-weight: 600;
+  font-style: normal;
   text-transform: none;
   font-size: 2rem;
-  font-weight: 500;
   color: $pink;
   &:hover {
     background: none;

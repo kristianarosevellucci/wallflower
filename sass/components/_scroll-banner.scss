@@ -1,8 +1,6 @@
 #circle {
-  position: absolute;
-  top: 85%;
-  left: 150px;
-  @include rotate(90deg);
+  position: relative;
+  height: 100px;
   @media (max-width: $screen-md) {
     display: none;
   }
@@ -17,15 +15,11 @@
   height: 20px;
   position: absolute;
   top: 82px;
-  left: 35px;
-  @include rotate(270deg);
+  left: 225px;
 }
 
 #circle svg {
-  position: absolute;
-  left: -60px;
-  height: 185px;
-  width: 195px;
+  height: 200px;
   &:hover {
     -webkit-animation-name: rotate;
     -moz-animation-name: rotate;
