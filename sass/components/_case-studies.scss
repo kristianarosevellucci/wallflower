@@ -64,6 +64,13 @@
   }
 }
 
+.case-process--rimc {
+  padding: 0 0 100px;
+  @media (max-width: $screen-sm) {
+    padding: 50px 0;
+  }
+}
+
 .case-process img {
   padding: 30px 0 0;
   @media (max-width: $screen-sm) {
@@ -72,6 +79,13 @@
 }
 
 .case-results {
+  @media (max-width: $screen-sm) {
+    padding: 0 0 100px;
+  }
+}
+
+.case-results__interac {
+  padding: 100px 0 0 0;
   @media (max-width: $screen-sm) {
     padding: 0 0 100px;
   }
@@ -110,11 +124,26 @@
   }
 }
 
+.case-study__finals--rimc {
+  padding: 120px 0;
+  @media (max-width: $screen-sm) {
+    padding: 0 0 60px;
+  }
+}
+
 .brand-colours {
   padding: 150px 0 0;
   @media (max-width: $screen-sm) {
     padding: 0 0 100px;
     text-align: center;
+  }
+}
+
+.brand-colours--interac {
+  padding: 150px 0;
+  text-align: center;
+  @media (max-width: $screen-sm) {
+    padding: 0 0 100px;
   }
 }
 
@@ -169,6 +198,18 @@
 
 .color-block__honey {
   background: #EC9D2F;
+}
+
+.color-block__ocre {
+  background: #F0B51C;
+}
+
+.color-block__interac-charcoal {
+  background: #292B31;
+}
+
+.color-block__interac-grey {
+  background: #EBE9F2;
 }
 
 .case-img__dibs-2 {

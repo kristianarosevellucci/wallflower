@@ -81,11 +81,6 @@
       color: $brown;
     }
   }
-  &:focus {
-    h3 {
-      box-shadow: 5px 5px $pink;
-    }
-  }
   @media (max-width: $screen-sm) {
     display: block;
     padding: 0 0 60px;
