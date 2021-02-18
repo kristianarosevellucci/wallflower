@@ -45,7 +45,29 @@
   }
 }
 
+.spacer-lg {
+  padding: 160px 0;
+  @media (max-width: $screen-md) {
+    padding: 80px 0;
+  }
+}
+
+.spacer-md {
+  padding: 120px 0;
+  @media (max-width: $screen-md) {
+    padding: 60px 0;
+  }
+}
+
+.spacer-sm {
+  padding: 800px 0;
+  @media (max-width: $screen-md) {
+    padding: 40px 0;
+  }
+}
+
 .padding-tb-100 {padding: 100px 0;}
 .padding-tb-75 {padding: 75px 0;}
 .padding-tb-50 {padding: 50px 0;}
 .padding-tb-25 {padding: 25px 0;}
+.pb-0 {padding-bottom: 0!important;}

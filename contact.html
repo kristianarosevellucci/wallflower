@@ -7,7 +7,7 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <link href="dist/application.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;600&family=Vollkorn:ital@0;1&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://use.typekit.net/iwc6lpi.css">
+  <link rel="stylesheet" href="https://use.typekit.net/ggi8ymd.css">
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -18,60 +18,103 @@
 
 <body>
 
-  <div class="contact">
-    <nav>
-      <div class="container">
-        <div class="row">
-          <div class="col-md-4">
-            <a href="index" class="logo-link"><img src="images/logo.svg" alt="Wallflower Studio" class="logo"></a>
-          </div>
-          <div class="col-md-8">
-            <div class="nav-link__container">
-              <a href="work" class="nav-link">Work</a>
-              <a href="our-story" class="nav-link">Our Story</a>
-              <a href="https://society6.com/kvellucci" class="nav-link" target="_blank">Shop</a>
-              <a href="contact" class="nav-link">Let's Chat!</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </nav>
-
+  <nav>
     <div class="container">
-      <div class="row contact__header">
-        <div class="offset-sm-1 col-sm-6">
-          <h1 class="d-none">Contact Us</h1>
-          <h2>We’d love to hear about your journey.</h2>
-        </div>
-      </div>
       <div class="row">
-        <div class="offset-md-1 col-md-3">
-          <p>We know how important it is to find the right creative team to bring your vision to life. If you think we're it for you, shoot us a message and we'll chat to make sure we're your perfect fit!</p>
+        <div class="col-md-2">
+          <a href="index" class="logo-link"><img src="images/logo.svg" alt="Wallflower Studio" class="logo"></a>
         </div>
-        <div class="offset-md-1 col-md-6">
-          <form name="contact" method="POST" data-netlify="true">
-            <div class="row">
-              <div class="col-md-6">
-                <label for="" class="contact__label">Name:</label><br>
-                <input type="text" name="name" value="" class="contact__input">
-                <label for="" class="contact__label">Email:</label><br>
-                <input type="text" name="email" value="" class="contact__input">
-                <label for="" class="contact__label">Subject:</label><br>
-                <input type="text" name="subject" value="" class="contact__input">
-              </div>
-              <div class="col-md-6">
-                <label for="" class="contact__label">Message:</label><br>
-                <textarea name="message" class="contact__message"></textarea>
-                <button type="submit" class="btn btn-secondary">Let's Chat</button>
-              </div>
-            </div>
-          </form>
+        <div class="col-md-8">
+          <div class="nav-link__container">
+            <a href="work" class="nav-link">Work</a>
+            <a href="our-story" class="nav-link">About</a>
+            <a href="services" class="nav-link">Services</a>
+          </div>
+        </div>
+        <div class="col-md-2">
+          <div class="nav-link__container">
+            <a href="contact" class="btn btn-secondary">Let's Chat!</a>
+          </div>
         </div>
       </div>
     </div>
-  </div>
+  </nav>
 
-  <footer>
+    <div class="container">
+      <div class="row contact__header text-center">
+        <div class="offset-sm-2 col-sm-8">
+          <h1 class="d-none">Contact Us</h1>
+          <h2>Project Application</h2>
+          <p>Ready to take the next step in your business? Fill out the form below and we'll set up a chat to see if we're the perfect fit!</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="offset-md-2 col-md-4">
+          <label value class="contact__label">First Name:</label><br>
+          <input type="text" name="first name" value="" class="contact__input">
+        </div>
+        <div class="col-md-4">
+          <label value class="contact__label">Last Name:</label><br>
+          <input type="text" name="last name" value="" class="contact__input">
+        </div>
+      </div>
+      <div class="row">
+        <div class="offset-md-2 col-md-8">
+          <label value name="email" class="contact__label">Email:</label><br>
+          <input type="text" name="email" value="" class="contact__input">
+        </div>
+      </div>
+      <div class="row">
+        <div class="offset-md-2 col-md-8">
+          <label class="contact__label">Business Name:</label><br>
+          <input type="text" name="business name" value="" class="contact__input">
+        </div>
+      </div>
+      <div class="row">
+        <div class="offset-md-2 col-md-8">
+          <label for="" class="contact__label">What does your business do?</label><br>
+          <input type="text" name="business services" value="" class="contact__input">
+        </div>
+      </div>
+      <div class="row">
+        <div class="offset-md-2 col-md-8">
+          <label for="" class="contact__label">What services are you interested in?</label>
+          <p>
+            <input name="services wanted" type="checkbox" id="branding"/>
+            <label for="branding">Branding</label>
+          </p>
+          <p>
+            <input name="services wanted" type="checkbox" id="web"/>
+            <label for="web">Web</label>
+          </p>
+          <p>
+            <input name="services wanted" type="checkbox" id="illustration"/>
+            <label for="illustration">Illustration</label>
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="offset-md-2 col-md-8">
+          <label for="" class="contact__label">How did you hear about Wallflower?</label><br>
+          <input type="text" name="referral source" value="" class="contact__input">
+        </div>
+      </div>
+      <div class="row">
+        <div class="offset-md-2 col-md-8">
+          <label for="" class="contact__label">What is your ideal launch date?</label><br>
+          <input type="text" name="launch date" value="" class="contact__input">
+        </div>
+      </div>
+      <div class="row">
+        <div class="offset-md-2 col-md-8">
+          <label for="" class="contact__label">Anything else you'd like to mention?</label><br>
+          <textarea name="message" class="contact__message"></textarea>
+          <button type="submit" class="btn btn-secondary">Let's Chat</button>
+        </div>
+      </div>
+    </div>
+
+  <footer class="contact-footer">
     <div class="container">
       <div class="row footer-content">
         <div class="col-sm-7">

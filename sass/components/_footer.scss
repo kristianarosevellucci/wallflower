@@ -1,30 +1,29 @@
 /*---------- Footer ----------*/
 footer {
-  background: $forest-green;
   position: relative;
-  padding: 100px 50px 20px;
+  padding: 0 50px 10px;
   @media only screen and (max-width: $screen-sm) {
     text-align: center;
   }
   h2 {
     font-size: 2rem;
-    font-weight: 500;
-  }
-  h2, p {
-    color: $beige;
   }
   p {
     margin-left: -10px;
   }
   a {
-    color: $beige;
+    color: $forest-green;
     display: block;
     transition: 0.5s ease;
     &:hover {
-      color: $pink;
+      color: darken($brown, 5%);
       text-decoration: none;
     }
   }
+}
+
+.contact-footer {
+  padding: 120px 0 0;
 }
 
 .footer__top-btn {
@@ -62,12 +61,12 @@ footer {
 }
 
 .footer-cta__link {
-  font-family: freight-big-pro, serif;
-  font-weight: 600;
+  font-family: termina, sans-serif;
+  font-weight: 700;
   font-style: normal;
   text-transform: none;
   font-size: 2rem;
-  color: $pink;
+  color: $brown;
   &:hover {
     background: none;
   }

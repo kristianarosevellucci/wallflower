@@ -1,14 +1,18 @@
 .cta-banner {
-  background: white;
-  padding: 100px 0;
-  @media (max-width: $screen-md) {
-    padding: 100px 25px;
+  padding: 0 0 60px;
+  text-align: center;
+  h2 {
+    color: $forest-green;
   }
   @media (max-width: $screen-xs) {
     img {
       display: none;
     }
   }
+}
+
+.cta-banner__inner {
+  background: url('../images/cta-pattern.svg') center center;
 }
 
 .cta__text {

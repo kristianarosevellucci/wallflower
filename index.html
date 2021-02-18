@@ -1,35 +1,39 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="p:domain_verify" content="a3a9f901182f7dd8561a5ad39fbe47af"/>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link href="dist/application.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;600&family=Vollkorn:ital@0;1&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://use.typekit.net/iwc6lpi.css">
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
-    <title>Wallflower Studio</title>
-  </head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="p:domain_verify" content="a3a9f901182f7dd8561a5ad39fbe47af"/>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link href="dist/application.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;600&family=Vollkorn:ital@0;1&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.typekit.net/ggi8ymd.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+  <title>Wallflower Studio</title>
+</head>
 
 <body>
   <nav>
     <div class="container">
       <div class="row">
-        <div class="col-md-4">
+        <div class="col-md-2">
           <a href="index" class="logo-link"><img src="images/logo.svg" alt="Wallflower Studio" class="logo"></a>
         </div>
         <div class="col-md-8">
           <div class="nav-link__container">
             <a href="work" class="nav-link">Work</a>
-            <a href="our-story" class="nav-link">Our Story</a>
-            <a href="https://society6.com/kvellucci" class="nav-link" target="_blank">Shop</a>
-            <a href="contact" class="nav-link">Let's Chat!</a>
+            <a href="our-story" class="nav-link">About</a>
+            <a href="services" class="nav-link">Services</a>
+          </div>
+        </div>
+        <div class="col-md-2">
+          <div class="nav-link__container">
+            <a href="contact" class="btn btn-secondary">Let's Chat!</a>
           </div>
         </div>
       </div>
@@ -39,21 +43,19 @@
   <section class="home-hero">
     <div class="container">
       <div class="row">
-        <div class="col-md-5 order-sm-1" data-aos="fade-right">
-          <div class="va-center home-hero__text">
-            <h1>You're one of a kind.</h1>
-            <p>And your brand and website should prove it. <br> We'll help you make it happen.</p>
+        <img src="images/brand-dogs-text.svg" alt="Wallflower Studio Brand Dogs" class="brand-img">
+        <!--<div class="offset-sm-3 col-md-6 order-sm-1 home-hero__text">
+          <div class="home-hero__text--inner">
+            <h1>You're unique.</h1>
+            <p>We'll build you a website &amp; brand to prove it.</p>
             <img src="images/icons/fancy-arrow.svg" alt="Fancy Arrow" class="home-hero__arrow">
           </div>
-        </div>
-        <div class="col-md-7 order-sm-12" data-aos="fade-up" data-aos-delay="300">
-          <img src="images/home-hero.png" alt="Wallflower Dogs" class="img-fluid home-hero__img">
-        </div>
+        </div>-->
       </div>
     </div>
   </section>
 
-  <section class="studio-intro" data-aos="fade-right">
+  <section class="studio-intro spacer-md" data-aos="fade-right">
     <div class="container">
       <div class="row">
         <div class="offset-sm-2 col-sm-8">
@@ -65,10 +67,11 @@
     </div>
   </section>
 
-  <section class="work-preview">
+  <section class="work-preview spacer-md">
     <div class="container">
       <div class="row">
         <div class="col-md-12">
+          <h2 class="text-center">Featured Work</h2>
           <div class="row portfolio__row">
             <div class="col-sm-5">
               <a href="projects/patricias" class="portfolio-piece work-preview__one">
@@ -121,77 +124,53 @@
     <div class="container">
       <div class="row">
         <div class="col-sm-12" data-aos="fade-in">
-          <h2 class="logo-quilt__title">People We've Worked With</h2>
+          <h2 class="logo-quilt__title">Past Collaborators</h2>
         </div>
       </div>
       <div class="row">
         <div class="col-sm-12">
           <div class="row" data-aos="fade-in">
             <div class="col-6 col-sm-3">
-              <a href="#" target="_blank">
-                <img src="images/quilt/argo.png" alt="Argo Mining" class="logo-quilt__logo">
-              </a>
+              <img src="images/quilt/sweet-cheat.png" alt="Sweet Cheat" class="logo-quilt__logo">
             </div>
             <div class="col-6 col-sm-3">
-              <a href="#" target="_blank">
-                <img src="images/quilt/shopify.png" alt="Shopify" class="logo-quilt__logo">
-              </a>
+              <img src="images/quilt/shopify.png" alt="Shopify" class="logo-quilt__logo">
             </div>
             <div class="col-6 col-sm-3">
-              <a href="#" target="_blank">
-                <img src="images/quilt/mobials.png" alt="Mobials Inc." class="logo-quilt__logo">
-              </a>
+              <img src="images/quilt/mobials.png" alt="Mobials Inc." class="logo-quilt__logo">
             </div>
             <div class="col-6 col-sm-3">
-              <a href="#" target="_blank">
-                <img src="images/quilt/penguin.png" alt="Penguin Randomhouse" class="logo-quilt__logo">
-              </a>
+              <img src="images/quilt/penguin.png" alt="Penguin Randomhouse" class="logo-quilt__logo">
             </div>
           </div>
 
           <div class="row" data-aos="fade-in">
             <div class="col-6 col-sm-3">
-              <a href="#" target="_blank">
-                <img src="images/quilt/think2grow.png" alt="Think2Grow Marketing" class="logo-quilt__logo">
-              </a>
+              <img src="images/quilt/tophat-logo.png" alt="Top Hat" class="logo-quilt__logo logo-quilt__logo--square">
             </div>
             <div class="col-6 col-sm-3">
-              <a href="#" target="_blank">
-                <img src="images/quilt/ivey.png" alt="Ivey Business School" class="logo-quilt__logo">
-              </a>
+              <img src="images/quilt/ivey.png" alt="Ivey Business School" class="logo-quilt__logo logo-quilt__logo--square">
             </div>
             <div class="col-6 col-sm-3">
-              <a href="#" target="_blank">
-                <img src="images/quilt/volante.png" alt="Volante" class="logo-quilt__logo">
-              </a>
+              <img src="images/quilt/tonic-blooms.png" alt="Tonic Blooms" class="logo-quilt__logo">
             </div>
             <div class="col-6 col-sm-3">
-              <a href="#" target="_blank">
-                <img src="images/quilt/globe.png" alt="Globe Series" class="logo-quilt__logo">
-              </a>
+              <img src="images/quilt/globe.png" alt="Globe Series" class="logo-quilt__logo">
             </div>
           </div>
 
           <div class="row" data-aos="fade-in">
             <div class="col-6 col-sm-3">
-              <a href="#" target="_blank">
-                <img src="images/quilt/kitco.png" alt="Kitco" class="logo-quilt__logo">
-              </a>
+              <img src="images/quilt/kitco.png" alt="Kitco" class="logo-quilt__logo">
             </div>
             <div class="col-6 col-sm-3">
-              <a href="#" target="_blank">
-                <img src="images/quilt/tophat-logo.png" alt="Top Hat" class="logo-quilt__logo logo-quilt__logo--square">
-              </a>
+              <img src="images/quilt/shopwell.png" alt="Shopwell" class="logo-quilt__logo">
             </div>
             <div class="col-6 col-sm-3">
-              <a href="#" target="_blank">
-                <img src="images/quilt/dibs.png" alt="Dibs" class="logo-quilt__logo">
-              </a>
+              <img src="images/quilt/dibs.png" alt="Dibs" class="logo-quilt__logo">
             </div>
             <div class="col-6 col-sm-3">
-              <a href="http://www.interac.ca" target="_blank">
-                <img src="images/quilt/interac.png" alt="Interac" class="logo-quilt__logo logo-quilt__logo--square">
-              </a>
+              <img src="images/quilt/interac.png" alt="Interac" class="logo-quilt__logo logo-quilt__logo--square">
             </div>
           </div>
         </div>
@@ -202,12 +181,9 @@
   <section class="cta-banner">
     <div class="container">
       <div class="row">
-        <div class="col-sm-7">
-          <h2 class="cta__text">Ready to watch your brand bloom?</h2>
+        <div class="col-sm-12 cta-banner__inner spacer-md">
+          <h2>Ready to <br> Bloom?</h2>
           <a href="contact" class="btn btn-primary">Let's Begin</a>
-        </div>
-        <div class="offset-sm-1 col-sm-4">
-          <img src="images/bloom.png" alt="Wallflower CTA Image" class="img-fluid va-center">
         </div>
       </div>
     </div>

@@ -2,67 +2,35 @@
   padding: 150px 0 100px;
 }
 
-.story {
-  padding: 100px 0;
+.our-story {
+  h3 {
+    @media (max-width: $screen-md) {
+      padding: 30px 0 20px;
+    }
+  }
 }
 
 .our-story__text {
-  padding: 70px 0 0;
+  padding: 80px 0 0;
 }
 
-.our-story__lead {
-  max-width: 500px;
-  padding: 30px 0;
-}
-
-.story__middle-row {
-  padding: 70px 0 100px;
-  @media (max-width: $screen-sm) {
-    padding: 70px 0 0;
+.beliefs {
+  h2 {
+    padding: 0 0 20px;
+  }
+  h4 {
+    padding: 20px 0 10px;
   }
 }
 
-.services {
-  padding: 0 0 125px;
-}
-
-.services h3 {
-  //padding: 50px 0 25px;
-}
-
-.services__row {
-  padding: 25px 0;
-}
-
-.services__offering {
-  border-bottom: 1px solid black;
-  padding: 50px 0;
-}
-
-.services__description {
-  padding: 25px 0;
-}
-
-.services__img {
-  display: block;
-  margin: 0 auto;
-  max-width: 200px;
-  @media (max-width: $screen-sm) {
-    display: block;
-    margin: 50px 0;
-    max-width: 100px;
+.wishlist {
+  padding: 0 0 160px;
+  h2 {
+    padding: 0 0 60px;
   }
-}
-
-.title-block {
-  margin: 0 0 75px -80px;
-  position: relative;
-}
-
-.title-block__text {
-  padding: 0 0 50px 0;
-}
-
-.story-title {
-  padding: 40px 0 20px;
+  .p-lg {
+    &.strike {
+      text-decoration: line-through;
+    }
+  }
 }

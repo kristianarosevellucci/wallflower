@@ -35,7 +35,7 @@
 }
 
 .case-study__title {
-  padding: 100px 0 0;
+  padding: 80px 0 0;
   h1 {
     font-size: 4rem;
   }
@@ -50,22 +50,29 @@
 }
 
 .case-study-intro p {
-  padding: 120px 0;
+  padding: 120px 0 0;
   text-align: center;
   @media (max-width: $screen-sm) {
     padding: 25px 0 50px;
   }
 }
 
+.case-study-summary {
+  padding: 120px 0;
+  @media (max-width: $screen-sm) {
+    padding: 25px 0 50px;
+  }
+}
+
 .case-process {
-  padding: 100px 0;
+  padding: 120px 0;
   @media (max-width: $screen-sm) {
     padding: 50px 0 0;
   }
 }
 
 .case-process--rimc {
-  padding: 0 0 100px;
+  padding: 120px 0 100px;
   @media (max-width: $screen-sm) {
     padding: 50px 0;
   }
@@ -231,4 +238,8 @@
   @media (max-width: $screen-sm) {
     display: none;
   }
+}
+
+.case-section-one__img {
+  margin-top: 120px;
 }
