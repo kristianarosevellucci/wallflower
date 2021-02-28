@@ -3,6 +3,9 @@
   max-width: 1200px !important;
   display: block;
   margin: 0 auto;
+  @media (max-width: $screen-sm) {
+    display: none;
+  }
   .va-center {
     @media (max-width: $screen-sm) {
       position: relative;
@@ -10,6 +13,18 @@
       transform: none;
     }
   }
+}
+
+.home-hero--mob {
+  display: none;
+  @media (max-width: $screen-sm) {
+    display: block;
+  }
+}
+
+.home-hero__text-mob {
+  padding: 60px 0 0;
+  text-align: center;
 }
 
 .home-hero__text {
@@ -51,7 +66,7 @@
   @media (max-width: $screen-sm) {
     display: block;
     margin: 25px 0 0;
-    max-height: 350px;
+    max-height: 300px;
     width: 100%;
   }
 }
@@ -100,4 +115,15 @@
 
 .services-hero__title {
   text-align: center;
+}
+
+.case-study-hero {
+  @media (max-width: $screen-sm) {
+    padding: 20px 0;
+  }
+  img {
+    @media (max-width: $screen-sm) {
+      display: none;
+    }
+  }
 }
