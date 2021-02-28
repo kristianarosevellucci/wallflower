@@ -25,6 +25,9 @@
 
 .wishlist {
   padding: 0 0 160px;
+  @media (max-width: $screen-sm) {
+    padding: 0 0 60px;
+  }
   h2 {
     padding: 0 0 60px;
   }

@@ -2,10 +2,16 @@
   background: white;
   margin: 0 50px;
   padding: 120px 0;
+  @media (max-width: $screen-sm) {
+    padding: 60px 0;
+  }
 }
 
 .process__step {
   padding: 0 25px;
+  @media (max-width: $screen-sm) {
+    padding: 0;
+  }
 }
 
 .process__img {

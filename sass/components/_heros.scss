@@ -50,6 +50,9 @@
 .services-hero {
   background: $forest-green;
   margin: 20px 50px 0;
+  @media (max-width: $screen-sm) {
+    margin: 20px;
+  }
   h1, p {
     color: $beige;
   }
@@ -79,8 +82,8 @@
     text-align: left;
   }
   @media (max-width: $screen-sm) {
-    padding-left: 40px;
-    padding-right: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
   }
 }
 
