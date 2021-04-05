@@ -1,25 +1,36 @@
 /*----------Homepage Hero----------*/
-.home-hero {
-  max-width: 1200px !important;
-  display: block;
-  margin: 0 auto;
-  @media (max-width: $screen-sm) {
-    display: none;
-  }
-  .va-center {
-    @media (max-width: $screen-sm) {
-      position: relative;
-      top: auto;
-      transform: none;
-    }
-  }
-}
-
 .home-hero--mob {
   display: none;
   @media (max-width: $screen-sm) {
     display: block;
   }
+}
+
+.home-hero {
+  background: url('../images/brand-dogs.svg') center center;
+  background-repeat: no-repeat;
+  padding: 130px 0;
+  @media (max-width: $screen-sm) {
+    display: none;
+  }
+}
+
+.hero-text {
+  background: $forest-green;
+  max-width: 600px;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px;
+}
+
+.hero-text-inner {
+  border: 2px solid $beige;
+  padding: 60px 40px 40px;
+}
+
+.hero-text h1 {
+  color: $beige;
 }
 
 .home-hero__text-mob {

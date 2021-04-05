@@ -151,7 +151,7 @@ h1, h2, h3, h4 {
   font-style: normal; }
 
 h1 {
-  font-size: 4rem;
+  font-size: 3.4rem;
   padding: 0 0 10px 0;
   line-height: 1.1; }
   @media (max-width: 768px) {
@@ -569,7 +569,8 @@ a {
       display: none; } }
 
 .cta-banner__inner {
-  background: #003A30; }
+  background: #003A30;
+  padding: 0 60px; }
   .cta-banner__inner h2 {
     color: #FEF8F0; }
 
@@ -689,24 +690,34 @@ footer {
   margin-left: -15px; }
 
 /*----------Homepage Hero----------*/
-.home-hero {
-  max-width: 1200px !important;
-  display: block;
-  margin: 0 auto; }
-  @media (max-width: 768px) {
-    .home-hero {
-      display: none; } }
-  @media (max-width: 768px) {
-    .home-hero .va-center {
-      position: relative;
-      top: auto;
-      transform: none; } }
-
 .home-hero--mob {
   display: none; }
   @media (max-width: 768px) {
     .home-hero--mob {
       display: block; } }
+
+.home-hero {
+  background: url("../images/brand-dogs.svg") center center;
+  background-repeat: no-repeat;
+  padding: 130px 0; }
+  @media (max-width: 768px) {
+    .home-hero {
+      display: none; } }
+
+.hero-text {
+  background: #003A30;
+  max-width: 600px;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px; }
+
+.hero-text-inner {
+  border: 2px solid #FEF8F0;
+  padding: 60px 40px 40px; }
+
+.hero-text h1 {
+  color: #FEF8F0; }
 
 .home-hero__text-mob {
   padding: 60px 0 0;
