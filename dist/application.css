@@ -233,7 +233,7 @@ a {
   font-family: 'Titillium Web', sans-serif;
   font-weight: 500;
   font-style: normal;
-  font-size: 2.6rem;
+  font-size: 2.3rem;
   line-height: 1.5;
   text-align: center; }
   @media (max-width: 992px) {
@@ -560,7 +560,7 @@ a {
   margin-top: 120px; }
 
 .cta-banner {
-  padding: 0 0 60px;
+  padding: 0 0 20px;
   text-align: center; }
   .cta-banner h2 {
     color: #003A30; }
@@ -569,7 +569,9 @@ a {
       display: none; } }
 
 .cta-banner__inner {
-  background: url("../images/cta-pattern.svg") center center; }
+  background: #003A30; }
+  .cta-banner__inner h2 {
+    color: #FEF8F0; }
 
 .cta__text {
   font-size: 4rem;
@@ -585,7 +587,7 @@ a {
     float: right; }
 
 .contact__header {
-  padding: 60px 0; }
+  padding: 60px 0 20px; }
 
 .contact__label {
   font-family: termina, serif;
@@ -614,6 +616,9 @@ a {
 .active-form {
   height: 100%;
   top: 0; }
+
+.contact-form {
+  padding: 0 0 60px; }
 
 /*---------- Footer ----------*/
 footer {
@@ -654,7 +659,8 @@ footer {
 
 .footer-social {
   display: inline-block;
-  float: right; }
+  float: left;
+  margin: 0 0 0 -25px; }
   @media only screen and (max-width: 768px) {
     .footer-social {
       float: none; } }
@@ -1096,6 +1102,14 @@ footer {
 
 .case-info .case-process img {
   padding: 0; }
+
+.work-preview__items h3,
+.work-preview__items p {
+  color: #FEF8F0;
+  text-transform: none; }
+
+.work-preview__items h3 {
+  padding: 20px 0 0; }
 
 .experiences h2 {
   text-align: center;

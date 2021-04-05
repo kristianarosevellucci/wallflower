@@ -1,5 +1,5 @@
 .cta-banner {
-  padding: 0 0 60px;
+  padding: 0 0 20px;
   text-align: center;
   h2 {
     color: $forest-green;
@@ -12,7 +12,11 @@
 }
 
 .cta-banner__inner {
-  background: url('../images/cta-pattern.svg') center center;
+  //background: url('../images/cta-pattern.svg') center center;
+  background: $forest-green;
+  h2 {
+    color: $beige;
+  }
 }
 
 .cta__text {

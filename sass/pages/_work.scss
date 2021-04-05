@@ -138,3 +138,13 @@
     }
   }
 }
+
+.work-preview__items h3,
+.work-preview__items p {
+  color: $beige;
+  text-transform: none;
+}
+
+.work-preview__items h3 {
+  padding: 20px 0 0;
+}
