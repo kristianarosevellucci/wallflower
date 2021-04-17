@@ -82,19 +82,14 @@
   }
 }
 
-.about-hero,
-.services-hero {
-  background: $forest-green;
-  margin: 20px 50px 0;
-  @media (max-width: $screen-sm) {
-    margin: 20px;
-  }
-  h1, p {
-    color: $beige;
-  }
-}
-
 .about-hero {
+  padding: 100px 0 0;
+  @media (max-width: $screen-md) {
+    padding: 60px 0 0;
+  }
+  h1 {
+    line-height: 1.4;
+  }
   img {
     position: absolute;
     right: 0;
@@ -106,16 +101,20 @@
 }
 
 .services-hero {
+  background: $forest-green;
+  h1, h2, h3 {
+    color: $beige;
+  }
   img {
     display: block;
-    margin: 0 auto;
-    width: 90%;
-    height: 50%;
+    margin: 20px auto 0;
+    max-width: 40px;
   }
   .p-lg {
     text-align: left;
   }
   @media (max-width: $screen-sm) {
+    margin: 20px 0 0;
     padding-left: 10px;
     padding-right: 10px;
   }

@@ -4,10 +4,10 @@
     padding: 0 0 60px;
   }
   h3 {
-    padding: 0 0 10px;
+    padding: 0;
   }
   h4 {
-    padding: 40px 0 10px;
+    padding: 20px 0 0;
   }
   .experiences-middle {
     padding: 80px 0;
@@ -60,11 +60,11 @@
 
 .faq {
   h2 {
-    padding: 0 0 60px;
+    padding: 0 0 30px;
   }
   @media (max-width: $screen-sm) {
     background: $forest-green;
-    margin: 0 0 40px;
+    border-bottom: 2px solid $beige;
     h2, h4, p {
       color: $beige;
     }
@@ -87,12 +87,20 @@
   }
 }
 
+.card-title {
+  margin: 10px 0;
+}
+
+.card-body {
+  padding: 0 0 20px;
+}
+
 .accordion .card-header:after,
 .accordion .card-header.collapsed:after {
   font-family: termina;
   position: absolute;
   right: 0;
-  top: 10px;
+  top: 15px;
   font-size: 2rem;
   font-family: termina, sans-serif;
   color: $yellow;

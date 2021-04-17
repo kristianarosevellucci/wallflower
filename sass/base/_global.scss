@@ -43,7 +43,7 @@ h2 {
 }
 
 h3 {
-  font-size: 2rem;
+  font-size: 1.75rem;
   line-height: 1.5;
   @media (max-width: $screen-md) {
     font-size: 1.8rem;
@@ -54,7 +54,7 @@ h3 {
 }
 
 h4 {
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   line-height: 1;
   @media (max-width: $screen-sm) {
     font-size: 1.25rem;
@@ -72,11 +72,10 @@ p {
 
 a {
   color: $forest-green;
-  font-family: 'Titillium Web', sans-serif;
-  font-size: 1rem;
-  font-weight: 600;
+  font-family: termina, sans-serif;
+  font-weight: 700;
+  font-size: .95rem;
   line-height: 1.5;
-  text-transform: uppercase;
   transition: .5s ease;
   &.active {
     color: $brown;
@@ -119,8 +118,8 @@ a {
 
 .p-lg {
   color: $forest-green;
-  font-family: 'Titillium Web', sans-serif;
-  font-weight: 500;
+  font-family: termina, sans-serif;
+  font-weight: 700;
   font-style: normal;
   font-size: 2.3rem;
   line-height: 1.5;
@@ -150,11 +149,12 @@ a {
 .btn {
   border: none;
   border-radius: 0;
-  font-family: 'Titillium Web', sans-serif;
-  font-size: 1rem;
-  font-weight: 600;
+  font-family: termina, sans-serif;
+  font-weight: 700;
+  font-size: .95rem;
+  line-height: 1.5;
   padding: 15px 20px;
-  text-transform: uppercase;
+  transition: .5s ease;
 }
 
 .btn-primary {
